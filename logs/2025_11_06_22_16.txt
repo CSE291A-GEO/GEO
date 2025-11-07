@@ -1,0 +1,19 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-06 22:16:48
+Log file: logs/2025_11_06_22_16.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_06_22_16.txt
+
+
+======== Query Agent: generated queries ========
+1. What is an API?
+2. What is the primary function of an API regarding application communication?
+3. Why do developers use APIs?
+[WARN] Gensee AI request failed: HTTPSConnectionPool(host='platform.gensee.ai', port=443): Read timed out. (read timeout=15)
+[WARN] Gensee AI request failed: HTTPSConnectionPool(host='platform.gensee.ai', port=443): Read timed out. (read timeout=15)
+[WARN] Gensee AI request failed: HTTPSConnectionPool(host='platform.gensee.ai', port=443): Read timed out. (read timeout=15)
+
+======== Retrieval: per-query context counts ========
+
+======== Retrieved Contexts (Full Content) ========

@@ -1,0 +1,104 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-07 00:14:52
+Log file: logs/2025_11_07_00_14.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_07_00_14.txt
+
+
+======== Query Agent: generated queries ========
+1. What is an API?
+2. Why do developers use APIs?
+3. What does an API consist of?
+
+======== Retrieval: per-query context counts ========
+- What is an API?...  | ctx=3
+- Why do developers use APIs?...  | ctx=3
+- What does an API consist of?...  | ctx=3
+
+======== Retrieved Contexts (Full Content) ========
+
+--- Query 1: What is an API? ---
+
+[Context 1]
+An API, or Application Programming Interface, is a set of rules that enables different software applications to communicate with each other. It acts as a bridge connecting two systems, such as a client and a server, allowing them to collaborate effectively. The document uses a restaurant analogy to explain APIs: the waiter (API) takes an order (request) from a customer (client), delivers it to the chef (server), and then brings the prepared food (response) back to the customer. Similarly, when a...
+
+[Context 2]
+An API, or application programming interface, is a set of protocols that allows different software components to communicate and exchange data. Developers utilize APIs to connect smaller pieces of code, enabling the creation of powerful, secure, and user-centric applications. APIs operate continuously in the background, powering many of the digital experiences we use daily. The document outlines the history of APIs, tracing their evolution through five phases: 1. **Commercial APIs (Early 2000s):...
+
+[Context 3]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather information from a server. APIs are crucial for connecting applications, allowing them to share data and features, thereby saving developers time by enabling ...
+
+--- Query 2: Why do developers use APIs? ---
+
+[Context 1]
+Developers use APIs for several key reasons: * **Reusing Functionality and Simplifying Coding:** APIs make it easier for developers to reuse existing code and functionality, which simplifies the coding process. * **Secure Connections Between Systems:** They provide secure connections between different systems, which can improve the overall user experience. * **Intermediary for Data Translation:** APIs act as intermediaries, translating data formats so that different programs can understand each ...
+
+[Context 2]
+The document explains that developers use APIs because they act as intermediaries that allow different software programs to communicate with each other. This communication enables various functionalities such as: * **Integration:** APIs connect different software pieces, allowing them to work together seamlessly. * **Accessibility:** They make it easier for developers to access and utilize the functionalities or data of other applications or services. * **Innovation:** By providing building bloc...
+
+[Context 3]
+Developers use APIs to bridge the gaps between small, discrete chunks of code. This enables them to create applications that are powerful, resilient, secure, and capable of meeting user needs. APIs facilitate communication and data transfer between different software components, systems, and devices. Key reasons developers use APIs include: * **Integration:** To connect different systems, such as integrating a CRM with a marketing automation system, allowing for automated data flow and actions. ...
+
+--- Query 3: What does an API consist of? ---
+
+[Context 1]
+An API (Application Programming Interface) consists of several key components that enable software components to communicate and transfer data. These components are essential for the functioning of modern applications. The primary components of a REST API, as described in the document, are: * **API Client:** This is responsible for initiating and directing API requests. It can refer to a development tool that simplifies the process of sending API requests for exploration, testing, and debugging,...
+
+[Context 2]
+An API (Application Programming Interface) is composed of several key components that enable different software systems to communicate and share data. These components include: * **API Endpoints:** These are specific URLs that represent the different requests that can be made to an API. Each endpoint has a unique function, such as retrieving a list of users (`/users`) or getting details for a specific user (`/users/123`). Endpoints define the structure and possible operations of an API. * **HTTP...
+
+[Context 3]
+An API (Application Programming Interface) is a set of rules and tools that enables different software applications to communicate with each other. It acts as a middleman, allowing one application to request data or services from another without needing to understand the internal workings of the other application. In essence, an API defines how applications should interact, specifying the requests that can be made, the data formats to be used, and the conventions to follow. Key aspects of what a...
+Frozen corpus saved to: corpus_e115757a99.json with 3 queries.
+
+======== Evaluator: Query & Contexts ========
+Query: What is an API?
+
+Number of contexts: 3
+
+[Context 1]
+An API, or Application Programming Interface, is a set of rules that enables different software applications to communicate with each other. It acts as a bridge connecting two systems, such as a client and a server, allowing them to collaborate effectively. The document uses a restaurant analogy to explain APIs: the waiter (API) takes an order (request) from a customer (client), delivers it to the chef (server), and then brings the prepared food (response) back to the customer. Similarly, when a...
+
+[Context 2]
+An API, or application programming interface, is a set of protocols that allows different software components to communicate and exchange data. Developers utilize APIs to connect smaller pieces of code, enabling the creation of powerful, secure, and user-centric applications. APIs operate continuously in the background, powering many of the digital experiences we use daily. The document outlines the history of APIs, tracing their evolution through five phases: 1. **Commercial APIs (Early 2000s):...
+
+[Context 3]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather information from a server. APIs are crucial for connecting applications, allowing them to share data and features, thereby saving developers time by enabling ...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "An API, or Application Programming Interface, is defined as a set of rules and definitions that enables different applications to communicate with each other. Developers use APIs to access data or functionality from external services without needing to understand their internal implementations, as stated in the candidate article.\n\nAPIs act as an intermediary or a bridge, allowing various software components or applications to exchange data and collaborate effectively. They provide the protocols and tools for one application to request data or services from another. This mechanism is fundamental to modern online services, enabling developers to reuse existing functionalities rather than building them from scratch, thereby saving time and facilitating the creation of powerful, secure, and user-centric applications.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 1.0,
+    "SC": 0.83,
+    "AD": 0.67
+  },
+  "why": {
+    "CP": "The candidate article is explicitly cited in the first paragraph, clearly indicating its contribution to the answer.",
+    "AA": "The statements attributed to the candidate article ('a set of rules and definitions that allows applications to communicate with each other' and 'Developers use APIs to access data or functionality from external services without knowing their internal implementations') are direct quotes or very close paraphrases from the article.",
+    "FA": "The answer accurately reflects the meaning of the candidate article without any distortion. The article's definition and explanation of purpose are faithfully represented.",
+    "KC": "The candidate article provides the core definition of an API and its primary purpose, which are the essential concepts for this query. It fully covers what an API is.",
+    "SC": "The candidate article provides the foundational definition of an API, which is central to answering the query. While contexts elaborate, the core definition comes directly from the candidate, making its semantic contribution very high.",
+    "AD": "The first paragraph, which contains the direct definition and purpose, comes entirely from the candidate article. The second paragraph elaborates using information from the contexts, but the core answer is dominated by the candidate article's content."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: Why do developers use APIs?
+
+Number of contexts: 3
+
+[Context 1]
+Developers use APIs for several key reasons: * **Reusing Functionality and Simplifying Coding:** APIs make it easier for developers to reuse existing code and functionality, which simplifies the coding process. * **Secure Connections Between Systems:** They provide secure connections between different systems, which can improve the overall user experience. * **Intermediary for Data Translation:** APIs act as intermediaries, translating data formats so that different programs can understand each ...
+
+[Context 2]
+The document explains that developers use APIs because they act as intermediaries that allow different software programs to communicate with each other. This communication enables various functionalities such as: * **Integration:** APIs connect different software pieces, allowing them to work together seamlessly. * **Accessibility:** They make it easier for developers to access and utilize the functionalities or data of other applications or services. * **Innovation:** By providing building bloc...
+
+[Context 3]
+Developers use APIs to bridge the gaps between small, discrete chunks of code. This enables them to create applications that are powerful, resilient, secure, and capable of meeting user needs. APIs facilitate communication and data transfer between different software components, systems, and devices. Key reasons developers use APIs include: * **Integration:** To connect different systems, such as integrating a CRM with a marketing automation system, allowing for automated data flow and actions. ...

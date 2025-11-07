@@ -1,0 +1,67 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-06 23:25:44
+Log file: logs/2025_11_06_23_25.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_06_23_25.txt
+
+
+======== Query Agent: generated queries ========
+1. What is an API?
+2. What do developers use APIs for?
+3. What elements constitute an API?
+
+======== Retrieval: per-query context counts ========
+- What is an API?...  | ctx=3
+- What do developers use APIs for?...  | ctx=3
+- What elements constitute an API?...  | ctx=3
+
+======== Retrieved Contexts (Full Content) ========
+
+--- Query 1: What is an API? ---
+
+[Context 1]
+An API, or Application Programming Interface, is a set of rules that enables different software applications to communicate with each other. It acts as a bridge connecting two systems, such as a client and a server, allowing them to collaborate effectively. The document uses a restaurant analogy to explain APIs: the waiter (API) takes an order (request) from a customer (client), delivers it to the chef (server), and then brings the prepared food (response) back to the customer. Similarly, when a...
+
+[Context 2]
+An API, or application programming interface, is a set of protocols that allows different software components to communicate and exchange data. Developers utilize APIs to connect smaller pieces of code, enabling the creation of powerful, secure, and user-centric applications. APIs operate continuously in the background, powering many of the digital experiences we use daily. The document outlines the history of APIs, tracing their evolution through five phases: 1. **Commercial APIs (Early 2000s):...
+
+[Context 3]
+An API, which stands for Application Programming Interface, acts as a middleman that enables different software applications to communicate with each other. It is a set of rules and tools that allows one application to request data or services from another. For instance, a weather app uses an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Apps:** They facilitate the sharing of data and features between applications, such as integrating...
+
+--- Query 2: What do developers use APIs for? ---
+
+[Context 1]
+Developers use APIs for several key purposes: * **Connecting Applications:** APIs enable different software applications to communicate with each other, allowing them to share data and features. A prime example is how a ride-sharing app integrates Google Maps to display real-time driver locations. * **Saving Development Time:** By reusing existing APIs, developers can avoid building functionalities from scratch, significantly speeding up the development process. * **Powering Modern Technology:**...
+
+[Context 2]
+Developers use APIs to bridge gaps between different software components, enabling them to communicate and transfer data. This allows for the creation of powerful, resilient, and secure applications that meet user needs. Specifically, APIs are used for: * **Integrating systems:** Connecting different software systems, applications, and devices, such as integrating a CRM with a marketing automation system. * **Enhancing functionality:** Adding new features to applications, like using a mapping AP...
+
+[Context 3]
+Developers use APIs (Application Programming Interfaces) to enable different software applications to communicate with each other. This is crucial for building web apps, mobile apps, and any software that needs to interact with external services. APIs define the rules, protocols, methods, and data formats that applications use for this communication. Specifically, developers use APIs to: * **Integrate with external services:** This allows their applications to leverage functionalities or data fr...
+
+--- Query 3: What elements constitute an API? ---
+
+[Context 1]
+The components of a REST API include: * **API Client:** This is responsible for assembling and directing API requests. It can be a development tool that simplifies sending API requests or a service that uses language-specific libraries to initiate requests within a larger application. The API client also handles the data returned by the API and presents it to the user. * **API Request:** This is what the API client sends. For a REST API, it comprises: * **Endpoint:** A specific URL that provides...
+
+[Context 2]
+The core components that make up an API include: * **API Endpoints**: These are the URLs available in an API, each with a specific function. For example, `/users` to retrieve a list of users or `/users/123` to get details of a specific user. * **HTTP Request Methods**: These indicate the desired action for an endpoint, such as GET (retrieve), POST (create), PUT (update), and DELETE (delete). * **Request Parameters**: These allow for filtering API requests by sending additional data, such as quer...
+
+[Context 3]
+An API (Application Programming Interface) is an intermediary that facilitates communication between software applications, enabling them to exchange data, features, and functionality. The exchanged data is typically in the form of HTML, JSON, XML, and Text. The core components of an API include: * **API Client:** This is the entity that sends requests to the API server. These requests can be initiated by user actions like clicking a button or entering a search term. * **API Request:** This is t...
+Frozen corpus saved to: corpus_e115757a99.json with 3 queries.
+
+======== Evaluator: Query & Contexts ========
+Query: What is an API?
+
+Number of contexts: 3
+
+[Context 1]
+An API, or Application Programming Interface, is a set of rules that enables different software applications to communicate with each other. It acts as a bridge connecting two systems, such as a client and a server, allowing them to collaborate effectively. The document uses a restaurant analogy to explain APIs: the waiter (API) takes an order (request) from a customer (client), delivers it to the chef (server), and then brings the prepared food (response) back to the customer. Similarly, when a...
+
+[Context 2]
+An API, or application programming interface, is a set of protocols that allows different software components to communicate and exchange data. Developers utilize APIs to connect smaller pieces of code, enabling the creation of powerful, secure, and user-centric applications. APIs operate continuously in the background, powering many of the digital experiences we use daily. The document outlines the history of APIs, tracing their evolution through five phases: 1. **Commercial APIs (Early 2000s):...
+
+[Context 3]
+An API, which stands for Application Programming Interface, acts as a middleman that enables different software applications to communicate with each other. It is a set of rules and tools that allows one application to request data or services from another. For instance, a weather app uses an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Apps:** They facilitate the sharing of data and features between applications, such as integrating...

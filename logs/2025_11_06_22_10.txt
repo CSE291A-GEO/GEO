@@ -1,0 +1,19 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-06 22:10:18
+Log file: logs/2025_11_06_22_10.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_06_22_10.txt
+
+
+======== Query Agent: generated queries ========
+1. What is an API (Application Programming Interface)?
+2. How do developers use APIs to interact with external services?
+3. What specific knowledge about external services is *not* required for developers when using APIs?
+[WARN] Missing GENSEE_API_KEY environment variable — returning empty list.
+[WARN] Missing GENSEE_API_KEY environment variable — returning empty list.
+[WARN] Missing GENSEE_API_KEY environment variable — returning empty list.
+
+======== Retrieval: per-query context counts ========
+
+======== Retrieved Contexts (Full Content) ========
