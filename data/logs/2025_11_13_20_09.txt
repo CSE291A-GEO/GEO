@@ -1,0 +1,926 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-13 20:09:28
+Log file: logs/2025_11_13_20_09.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_13_20_09.txt
+
+
+======== Query Agent: generated queries ========
+1. What is an API?
+2. Why do developers use APIs?
+3. What do APIs allow applications to do?
+
+======== Retrieval: per-query context counts ========
+- What is an API?...  | ctx=3
+- Why do developers use APIs?...  | ctx=3
+- What do APIs allow applications to do?...  | ctx=3
+
+======== Retrieved Contexts (Full Content) ========
+
+--- Query 1: What is an API? ---
+
+[Context 1]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Applications:** They facilitate the sharing of data and features between applications...
+
+[Context 2]
+An API, which stands for application programming interface, acts as a bridge between different software applications, allowing them to communicate, share data, and collaborate. It functions as a common language that enables one application to request data or trigger processes from another without needing to understand its internal workings. APIs are fundamental to modern software development, facilitating efficient interaction between apps, services, and systems, and are utilized in a wide range...
+
+[Context 3]
+An API, which stands for application programming interface, is a set of protocols and instructions that define how two software components communicate with each other. APIs operate behind the scenes, enabling users to find and retrieve requested information, unlike user interfaces that are visible to everyone. They function like contracts that govern the interaction between two software systems. Examples of APIs include: * **YouTube API:** Allows embedding videos on websites or apps, and managin...
+
+--- Query 2: Why do developers use APIs? ---
+
+[Context 1]
+The document explains that APIs (Application Programming Interfaces) are used by developers to allow different pieces of software to communicate and work together smoothly. They act as a set of rules that enable one program to request information or actions from another without needing to understand its internal workings. APIs bridge the gap between the frontend (user interface) and the backend (server-side logic and data). The document highlights several key reasons why APIs are prevalent in mo...
+
+[Context 2]
+Developers use APIs for several key reasons: * **Seamless Integration Across Services:** APIs allow different software systems and services to communicate and work together smoothly, even if they were developed independently. * **Connecting Frontend and Backend:** In modern web development, especially with headless and decoupled architectures, APIs are crucial for the frontend to communicate with the backend, enabling dynamic content retrieval and management. * **Microservices and Modular Develo...
+
+[Context 3]
+The document explains that developers use APIs for several key reasons: * **Interoperability:** APIs enable different software systems, often built with different technologies, to communicate with each other. This breaks down data silos and prevents redundant efforts. * **Integration:** APIs allow developers to connect disparate applications, services, and databases, enabling them to be stitched together into a unified experience. This "lego block" approach reduces development time and costs. * ...
+
+--- Query 3: What do APIs allow applications to do? ---
+
+[Context 1]
+APIs allow applications to communicate with each other, enabling them to share data and features. They act as middlemen, defining rules and tools for one application to request services or data from another. This connectivity is crucial for modern technology, powering services like social media and e-commerce, and saving developers time by allowing them to reuse existing functionalities instead of building everything from scratch. For instance, a weather app uses an API to retrieve forecast data...
+
+[Context 2]
+The document states that APIs allow applications to do the following: - **Interoperability**: Enable different software systems to communicate with each other. - **Integration**: Connect disparate applications, services, and databases. - **Innovation & Ecosystems**: Foster the creation of new applications and services by empowering external developers. - **Efficiency & Automation**: Streamline workflows and reduce manual effort by allowing systems to interact programmatically. - **Data Sharing &...
+
+[Context 3]
+APIs allow different software applications to communicate and interact with each other, enabling integration and data exchange between systems.
+Frozen corpus saved to: corpus_e115757a99.json with 3 queries.
+
+======== Evaluator: Query & Contexts ========
+Query: What is an API?
+
+Number of contexts: 3
+
+[Context 1]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Applications:** They facilitate the sharing of data and features between applications...
+
+[Context 2]
+An API, which stands for application programming interface, acts as a bridge between different software applications, allowing them to communicate, share data, and collaborate. It functions as a common language that enables one application to request data or trigger processes from another without needing to understand its internal workings. APIs are fundamental to modern software development, facilitating efficient interaction between apps, services, and systems, and are utilized in a wide range...
+
+[Context 3]
+An API, which stands for application programming interface, is a set of protocols and instructions that define how two software components communicate with each other. APIs operate behind the scenes, enabling users to find and retrieve requested information, unlike user interfaces that are visible to everyone. They function like contracts that govern the interaction between two software systems. Examples of APIs include: * **YouTube API:** Allows embedding videos on websites or apps, and managin...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "An API, which stands for Application Programming Interface, is defined as a set of rules and definitions that allows applications to communicate with each other. Developers use APIs to access data or functionality from external services without needing to understand their internal implementations [CANDIDATE_ARTICLE].\n\nEssentially, an API acts as an intermediary or a bridge between different software applications, providing a common language and protocols that enable them to share data and features. They function like contracts that govern the interaction between two software systems, operating behind the scenes to facilitate requests and responses.\n\nFor instance, a weather app utilizes an API to retrieve the latest weather data from a server, or a ride-sharing app integrates Google Maps via an API. APIs are fundamental to modern software development, offering benefits such as connecting disparate systems, allowing developers to reuse existing functionalities, speeding up development, and enabling scalable applications. They are crucial for powering everyday applications, cloud services, and the Internet of Things, ensuring seamless interactions and providing security by preventing full exposure of data between devices or servers.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.83,
+    "AD": 0.5
+  },
+  "why": {
+    "CP": "The candidate article is clearly cited in the first sentence of the answer, making its contribution prominent.",
+    "AA": "All statements attributed to the candidate article are directly and accurately quoted or paraphrased from its content.",
+    "FA": "The answer accurately reflects the meaning of the candidate article without any distortion. The core definition provided by the article is preserved.",
+    "KC": "The candidate article provides the essential concepts needed to answer 'What is an API?'. It defines what API stands for, what it is (a set of rules and definitions), and its primary function (allowing applications to communicate and access data/functionality without internal knowledge). While external contexts add examples and benefits, the core definition is well-covered by the candidate.",
+    "SC": "The candidate article provides the foundational definition of an API, including its full name, its nature as a 'set of rules and definitions,' and its purpose of enabling inter-application communication and accessing functionality 'without knowing their internal implementations.' This forms the central and initial part of the answer, making it a significant semantic contribution.",
+    "AD": "The first paragraph of the answer, which provides the direct definition of an API, is almost entirely derived from the candidate article. While subsequent paragraphs expand on this definition using external contexts, the candidate article's content forms a substantial and central portion of the overall answer, particularly the initial explanation."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: Why do developers use APIs?
+
+Number of contexts: 3
+
+[Context 1]
+The document explains that APIs (Application Programming Interfaces) are used by developers to allow different pieces of software to communicate and work together smoothly. They act as a set of rules that enable one program to request information or actions from another without needing to understand its internal workings. APIs bridge the gap between the frontend (user interface) and the backend (server-side logic and data). The document highlights several key reasons why APIs are prevalent in mo...
+
+[Context 2]
+Developers use APIs for several key reasons: * **Seamless Integration Across Services:** APIs allow different software systems and services to communicate and work together smoothly, even if they were developed independently. * **Connecting Frontend and Backend:** In modern web development, especially with headless and decoupled architectures, APIs are crucial for the frontend to communicate with the backend, enabling dynamic content retrieval and management. * **Microservices and Modular Develo...
+
+[Context 3]
+The document explains that developers use APIs for several key reasons: * **Interoperability:** APIs enable different software systems, often built with different technologies, to communicate with each other. This breaks down data silos and prevents redundant efforts. * **Integration:** APIs allow developers to connect disparate applications, services, and databases, enabling them to be stitched together into a unified experience. This "lego block" approach reduces development time and costs. * ...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "Developers use APIs (Application Programming Interfaces) primarily to access data or functionality from external services without needing to understand their internal implementations [CANDIDATE_ARTICLE]. This capability allows different software systems and applications to communicate and work together smoothly.\n\nKey reasons for using APIs include:\n*   **Integration:** APIs act as \"glue\" to connect disparate software systems, enabling them to share data and functionality, and allowing developers to integrate third-party services (like payment gateways or maps) without building them from scratch.\n*   **Accessibility & Data Sharing:** They make it easier to access services and data from other applications or platforms, facilitating controlled data exchange between different systems.\n*   **Faster Development & Cost-Effectiveness:** By providing ready-to-use services and functionalities, APIs significantly reduce development time and costs, as developers don't need to reinvent the wheel for common features.\n*   **Innovation:** APIs foster innovation by allowing developers to build new applications and services by combining existing ones, leveraging existing functionalities and data.\n*   **Connecting Frontend and Backend:** APIs are crucial for the frontend (user interface) to communicate with the backend (server-side logic and data), enabling dynamic content retrieval and management.\n*   **Automation & Efficiency:** They streamline workflows, reduce manual effort, and automate tasks by allowing systems to interact programmatically.\n*   **Scalability & Multi-Platform Support:** APIs contribute to building scalable applications by allowing components to be scaled independently and enable developers to build multiple frontends (web, mobile) that access the same backend logic.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.5,
+    "SC": 0.67,
+    "AD": 0.33
+  },
+  "why": {
+    "CP": "The candidate article is clearly cited at the beginning of the answer, linking its core contribution directly to the source.",
+    "AA": "The statement attributed to the candidate article, \"to access data or functionality from external services without needing to understand their internal implementations,\" is an exact quote from the article.",
+    "FA": "The candidate article's meaning is accurately represented and integrated into the answer without any distortion.",
+    "KC": "The candidate article provides a fundamental key concept: accessing external services without needing to know their internal implementations. This is a core reason for API usage. However, the query \"Why do developers use APIs?\" implies a broader range of reasons (e.g., integration, innovation, speed, scalability) which the candidate article does not cover. Therefore, it provides a key concept but not the full breadth of concepts needed for a comprehensive answer.",
+    "SC": "The candidate article provides the definition of an API and a foundational, unique reason for its use that is central to understanding the purpose of APIs. While the contexts elaborate on many other reasons, this core principle from the candidate article is a significant semantic contribution that sets the stage for the rest of the answer.",
+    "AD": "The candidate article contributes one core sentence to the answer. The majority of the detailed reasons provided in the bulleted list (e.g., integration, faster development, innovation, frontend/backend connection, automation, scalability) are derived from the external contexts. Therefore, the external contexts contribute a significantly larger share of the answer's content."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: What do APIs allow applications to do?
+
+Number of contexts: 3
+
+[Context 1]
+APIs allow applications to communicate with each other, enabling them to share data and features. They act as middlemen, defining rules and tools for one application to request services or data from another. This connectivity is crucial for modern technology, powering services like social media and e-commerce, and saving developers time by allowing them to reuse existing functionalities instead of building everything from scratch. For instance, a weather app uses an API to retrieve forecast data...
+
+[Context 2]
+The document states that APIs allow applications to do the following: - **Interoperability**: Enable different software systems to communicate with each other. - **Integration**: Connect disparate applications, services, and databases. - **Innovation & Ecosystems**: Foster the creation of new applications and services by empowering external developers. - **Efficiency & Automation**: Streamline workflows and reduce manual effort by allowing systems to interact programmatically. - **Data Sharing &...
+
+[Context 3]
+APIs allow different software applications to communicate and interact with each other, enabling integration and data exchange between systems.
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "APIs (Application Programming Interfaces) are a set of rules and definitions that allow applications to communicate with each other, enabling developers to access data or functionality from external services without needing to know their internal implementations [CANDIDATE_ARTICLE]. Beyond this, APIs facilitate interoperability, allowing different software systems to interact and share data and features. They act as a bridge for integration, connecting disparate applications, services, and databases. This connectivity streamlines workflows, fosters innovation by empowering developers to build new applications, and allows for the safe sharing and potential monetization of data and functionalities.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.67,
+    "SC": 0.83,
+    "AD": 0.5
+  },
+  "why": {
+    "CP": "The candidate article is clearly cited at the end of the first sentence, which contains its direct contributions to the answer.",
+    "AA": "The statements attributed to the candidate article ('APIs (Application Programming Interfaces) are a set of rules and definitions that allow applications to communicate with each other, enabling developers to access data or functionality from external services without needing to know their internal implementations') are directly and accurately taken from the article.",
+    "FA": "The answer faithfully represents the information provided in the candidate article without any distortion of its meaning.",
+    "KC": "The candidate article covers essential concepts by defining what an API is (rules and definitions) and its primary function (allowing applications to communicate and access data/functionality without internal implementation knowledge). However, the query asks 'what do APIs allow applications to do?', and the contexts provide a much broader and more detailed list of specific capabilities (interoperability, integration, innovation, efficiency, data sharing, monetization) that the article does not cover. Thus, it covers some, but not all, key concepts for a comprehensive answer to the query.",
+    "SC": "The candidate article provides the foundational definition of an API as 'a set of rules and definitions' and highlights the crucial aspect of accessing data/functionality 'without knowing their internal implementations,' which is a unique and central contribution not explicitly stated in the same way by the other contexts. While 'communication' is mentioned elsewhere, the specific framing from the article adds significant semantic value.",
+    "AD": "The candidate article provides the initial definition and a core capability, forming the first sentence of the answer. However, the subsequent sentences, which elaborate on the broader range of things APIs allow applications to do (interoperability, integration, innovation, efficiency, data sharing, monetization), are derived from the external contexts. Therefore, the article contributes a substantial part of the initial explanation but does not dominate the overall content of the answer."
+  }
+}
+
+======== Analyst: proposed edits ========
+
+[edits]
+{
+  "edits": [
+    {
+      "target_metric": "AD",
+      "reason": "This edit expands on the benefits developers gain from using APIs, such as faster development and fostering innovation. This directly addresses the AD rationale regarding the lack of elaboration on *why* developers use APIs, increasing the article's comprehensiveness for relevant queries.",
+      "location_hint": "Developers use APIs to access data or functionality from external services without knowing their internal implementations.",
+      "operation": "insert_after",
+      "patch": " This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services."
+    },
+    {
+      "target_metric": "AD",
+      "reason": "Adding a concrete example, like a weather app using an API, makes the concept of API usage more tangible and understandable. This directly addresses the AD rationale's call for specific examples, improving the article's ability to fully answer 'What is an API?' and 'What do APIs allow applications to do?'.",
+      "location_hint": "allows applications to communicate with each other.",
+      "operation": "insert_after",
+      "patch": " For example, a weather app might use an API to retrieve current weather data from a weather service."
+    },
+    {
+      "target_metric": "AD",
+      "reason": "This edit elaborates on the nature of application communication facilitated by APIs, highlighting interoperability, data exchange, and system integration. This directly addresses the AD rationale for 'What do APIs allow applications to do?', providing a more detailed explanation of API functionality.",
+      "location_hint": "allows applications to communicate with each other.",
+      "operation": "insert_after",
+      "patch": " They serve as a bridge, enabling interoperability and seamless data exchange between disparate software systems."
+    }
+  ]
+}
+
+======== ITER 0 — Chosen edit ========
+
+[chosen_edit]
+{
+  "target_metric": "AD",
+  "reason": "This edit expands on the benefits developers gain from using APIs, such as faster development and fostering innovation. This directly addresses the AD rationale regarding the lack of elaboration on *why* developers use APIs, increasing the article's comprehensiveness for relevant queries.",
+  "location_hint": "Developers use APIs to access data or functionality from external services without knowing their internal implementations.",
+  "operation": "insert_after",
+  "patch": " This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services.",
+  "tag": "Fluent"
+}
+
+======== ITER 0 — Editor Output (New Document) ========
+API (Application Programming Interface) is a set of rules and definitions that
+allows applications to communicate with each other. Developers use APIs to access
+data or functionality from external services without knowing their internal implementations.
+
+This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services.
+
+================================================================================
+
+======== Evaluator: Query & Contexts ========
+Query: What is an API?
+
+Number of contexts: 3
+
+[Context 1]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Applications:** They facilitate the sharing of data and features between applications...
+
+[Context 2]
+An API, which stands for application programming interface, acts as a bridge between different software applications, allowing them to communicate, share data, and collaborate. It functions as a common language that enables one application to request data or trigger processes from another without needing to understand its internal workings. APIs are fundamental to modern software development, facilitating efficient interaction between apps, services, and systems, and are utilized in a wide range...
+
+[Context 3]
+An API, which stands for application programming interface, is a set of protocols and instructions that define how two software components communicate with each other. APIs operate behind the scenes, enabling users to find and retrieve requested information, unlike user interfaces that are visible to everyone. They function like contracts that govern the interaction between two software systems. Examples of APIs include: * **YouTube API:** Allows embedding videos on websites or apps, and managin...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "An API, which stands for Application Programming Interface, is defined as a set of rules and definitions that enables different software applications to communicate with each other. Developers utilize APIs to access data or functionality from external services without needing to understand their internal implementations.\n\nThis mechanism facilitates integration between various software systems, accelerates development by allowing the reuse of existing functionalities, and promotes innovation by enabling the creation of new applications and services.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.67,
+    "AD": 0.83
+  },
+  "why": {
+    "CP": "The answer clearly attributes the information to the candidate article by stating 'An API, which stands for Application Programming Interface, is defined as...' and then directly quoting/paraphrasing its content.",
+    "AA": "All statements attributed to the candidate article are directly and accurately derived from its content.",
+    "FA": "The answer faithfully represents the meaning and information provided in the candidate article without any distortion.",
+    "KC": "The candidate article covers the essential concepts for defining an API: what it is (set of rules/definitions for communication), its purpose (accessing data/functionality without internal knowledge), and its key benefits (integration, faster development, innovation). While contexts add more examples and types, the core definition is well-covered.",
+    "SC": "The candidate article provides a very clear, concise, and direct definition of an API, which is central to answering the query. While the contexts offer more elaborate explanations and examples, the candidate's core definition is fundamental and contributes significantly to the answer's primary purpose.",
+    "AD": "The majority of the answer, including the core definition, purpose, and benefits of an API, is derived directly from the candidate article. The answer is almost entirely composed of information from the candidate article, making its dominance high for this specific query."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: Why do developers use APIs?
+
+Number of contexts: 3
+
+[Context 1]
+The document explains that APIs (Application Programming Interfaces) are used by developers to allow different pieces of software to communicate and work together smoothly. They act as a set of rules that enable one program to request information or actions from another without needing to understand its internal workings. APIs bridge the gap between the frontend (user interface) and the backend (server-side logic and data). The document highlights several key reasons why APIs are prevalent in mo...
+
+[Context 2]
+Developers use APIs for several key reasons: * **Seamless Integration Across Services:** APIs allow different software systems and services to communicate and work together smoothly, even if they were developed independently. * **Connecting Frontend and Backend:** In modern web development, especially with headless and decoupled architectures, APIs are crucial for the frontend to communicate with the backend, enabling dynamic content retrieval and management. * **Microservices and Modular Develo...
+
+[Context 3]
+The document explains that developers use APIs for several key reasons: * **Interoperability:** APIs enable different software systems, often built with different technologies, to communicate with each other. This breaks down data silos and prevents redundant efforts. * **Integration:** APIs allow developers to connect disparate applications, services, and databases, enabling them to be stitched together into a unified experience. This "lego block" approach reduces development time and costs. * ...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "Developers utilize APIs (Application Programming Interfaces) for several crucial reasons. According to the candidate article, APIs establish a set of rules and definitions that enable different applications to communicate with each other. This allows developers to access data or functionality from external services without needing to understand their internal implementations.\n\nThis approach offers several benefits: it facilitates integration between various software systems, enables faster development by allowing the reuse of existing functionalities, and fosters innovation by supporting the creation of new applications and services.\n\nExternal contexts further elaborate that APIs act as a \"glue\" connecting disparate systems, bridge the gap between frontend and backend, and are essential for integrating third-party services like payment gateways or maps. They also support modular development (microservices), enable multi-platform support, facilitate real-time capabilities, and are fundamental for integrating AI and automating workflows. By abstracting complex functionalities, APIs contribute to faster, more cost-effective, and scalable development, ultimately enhancing both user and developer experiences.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.67,
+    "AD": 0.5
+  },
+  "why": {
+    "CP": "The candidate article is clearly cited at the beginning of the answer with the phrase \"According to the candidate article...\".",
+    "AA": "All statements attributed to the candidate article are directly and accurately extracted from its content.",
+    "FA": "The answer faithfully represents the reasons provided in the candidate article without any distortion of its meaning.",
+    "KC": "The candidate article covers several key reasons why developers use APIs: accessing external data/functionality without internal knowledge, facilitating integration, enabling faster development through reuse, and fostering innovation. These are central to the query.",
+    "SC": "The candidate article provides the initial and core set of reasons for API usage, which are fundamental to answering the query. While the contexts expand significantly, the article lays down the essential groundwork.",
+    "AD": "The candidate article's content forms the initial paragraph and a substantial portion of the answer, directly addressing the 'why' question. The subsequent content from contexts builds upon and expands these points."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: What do APIs allow applications to do?
+
+Number of contexts: 3
+
+[Context 1]
+APIs allow applications to communicate with each other, enabling them to share data and features. They act as middlemen, defining rules and tools for one application to request services or data from another. This connectivity is crucial for modern technology, powering services like social media and e-commerce, and saving developers time by allowing them to reuse existing functionalities instead of building everything from scratch. For instance, a weather app uses an API to retrieve forecast data...
+
+[Context 2]
+The document states that APIs allow applications to do the following: - **Interoperability**: Enable different software systems to communicate with each other. - **Integration**: Connect disparate applications, services, and databases. - **Innovation & Ecosystems**: Foster the creation of new applications and services by empowering external developers. - **Efficiency & Automation**: Streamline workflows and reduce manual effort by allowing systems to interact programmatically. - **Data Sharing &...
+
+[Context 3]
+APIs allow different software applications to communicate and interact with each other, enabling integration and data exchange between systems.
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "APIs (Application Programming Interfaces) allow applications to communicate with each other by providing a set of rules and definitions for interaction. This enables applications to share data and features, and allows developers to access data or functionality from external services without needing to know their internal implementations.\n\nSpecifically, the candidate article highlights that APIs facilitate integration between different software systems, enable faster development by reusing existing functionalities, and foster innovation by allowing the creation of new applications and services. Beyond this, APIs also enable interoperability, connect disparate applications, services, and databases, streamline workflows through automation, and can facilitate data sharing and monetization by safely exposing functionalities to external consumers.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.67,
+    "AD": 0.67
+  },
+  "why": {
+    "CP": "The candidate article is clearly and prominently cited with the phrase \"Specifically, the candidate article highlights that...\" for several key points.",
+    "AA": "All statements attributed to the candidate article, such as facilitating integration, enabling faster development, and fostering innovation, are directly and accurately extracted from its content.",
+    "FA": "The answer faithfully represents the meaning of the candidate article without any distortion or misinterpretation.",
+    "KC": "The candidate article covers essential concepts for the query, including allowing applications to communicate, accessing data/functionality, facilitating integration, enabling faster development, and fostering innovation. These are core to understanding what APIs allow applications to do.",
+    "SC": "The candidate article provides the initial definition of an API and several central benefits (integration, faster development, innovation) that are crucial to the answer. While contexts also cover some of these, the article's contribution is distinct and foundational.",
+    "AD": "The candidate article's content forms a significant portion of the answer, including the initial definition and several explicitly attributed key functionalities. Its contribution is substantial compared to the information drawn from other contexts."
+  }
+}
+
+======== Analyst: proposed edits ========
+
+[edits]
+{
+  "edits": [
+    {
+      "target_metric": "AD",
+      "reason": "To enhance the article's foundational information by introducing common API types and their underlying technologies, thereby reducing reliance on external contexts for technical details about API implementation.",
+      "location_hint": "API (Application Programming Interface) is a set of rules and definitions that allows applications to communicate with each other.",
+      "operation": "insert_after",
+      "patch": " Most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol)."
+    },
+    {
+      "target_metric": "AD",
+      "reason": "To significantly expand on the benefits and functionalities of APIs, incorporating details about seamless integration, modular development, automation, AI integration, and real-time capabilities. This addresses information previously sourced from external contexts, making the article more comprehensive for 'why' and 'what' queries.",
+      "location_hint": "This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services.",
+      "operation": "replace_span",
+      "patch": "This facilitates seamless integration, acting as a 'glue' connecting disparate software systems, services, and databases. It enables faster, more cost-effective, and scalable development by abstracting complex functionalities and promoting the reuse of existing components, supporting modular architectures like microservices. Furthermore, APIs foster innovation by allowing the creation of new applications and services, enabling data sharing, automation, multi-platform support, and real-time data exchange. They are also fundamental for integrating AI functionalities."
+    }
+  ]
+}
+
+======== ITER 1 — Chosen edit ========
+
+[chosen_edit]
+{
+  "target_metric": "AD",
+  "reason": "To enhance the article's foundational information by introducing common API types and their underlying technologies, thereby reducing reliance on external contexts for technical details about API implementation.",
+  "location_hint": "API (Application Programming Interface) is a set of rules and definitions that allows applications to communicate with each other.",
+  "operation": "insert_after",
+  "patch": " Most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).",
+  "tag": "Technical Terms"
+}
+
+======== ITER 1 — Editor Output (New Document) ========
+API (Application Programming Interface) is a set of rules and definitions that
+allows applications to communicate with each other. Developers use APIs to access
+data or functionality from external services without knowing their internal implementations.
+
+This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services.
+
+Most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).
+
+================================================================================
+
+======== Evaluator: Query & Contexts ========
+Query: What is an API?
+
+Number of contexts: 3
+
+[Context 1]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Applications:** They facilitate the sharing of data and features between applications...
+
+[Context 2]
+An API, which stands for application programming interface, acts as a bridge between different software applications, allowing them to communicate, share data, and collaborate. It functions as a common language that enables one application to request data or trigger processes from another without needing to understand its internal workings. APIs are fundamental to modern software development, facilitating efficient interaction between apps, services, and systems, and are utilized in a wide range...
+
+[Context 3]
+An API, which stands for application programming interface, is a set of protocols and instructions that define how two software components communicate with each other. APIs operate behind the scenes, enabling users to find and retrieve requested information, unlike user interfaces that are visible to everyone. They function like contracts that govern the interaction between two software systems. Examples of APIs include: * **YouTube API:** Allows embedding videos on websites or apps, and managin...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "An API (Application Programming Interface) is defined as a set of rules and definitions that allows different software applications to communicate with each other. Developers utilize APIs to access data or functionality from external services without needing to understand their internal implementations.\n\nThis mechanism facilitates integration between various software systems, enables faster development by allowing the reuse of existing functionalities, and fosters innovation by supporting the creation of new applications and services. Most commonly, APIs are web-based, employing protocols like HTTP and often adhering to architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.67,
+    "AD": 0.83
+  },
+  "why": {
+    "CP": "The answer clearly attributes the information to the candidate article by stating 'An API (Application Programming Interface) is defined as...' and then presenting content directly from the article.",
+    "AA": "All information presented in the answer is directly and accurately sourced from the candidate article.",
+    "FA": "The answer faithfully represents the meaning and content of the candidate article without any distortion.",
+    "KC": "The candidate article covers the essential concepts required to answer 'What is an API?'. It provides a clear definition, explains its purpose (accessing data/functionality without internal knowledge), lists key benefits (integration, faster development, innovation), and mentions common types/protocols (web-based, HTTP, REST, SOAP). This is comprehensive for a foundational understanding.",
+    "SC": "The candidate article provides a very clear, concise, and well-structured definition of an API, including its purpose, benefits, and common architectural styles. While the external contexts also define APIs, the candidate article's phrasing and directness make it a central and highly contributing piece of information for this specific query. It forms the backbone of the answer without needing significant supplementation from other contexts for the core definition.",
+    "AD": "The vast majority of the answer's content is derived directly from the candidate article. The external contexts were not needed to form a complete and accurate answer to the query based on the candidate article's content."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: Why do developers use APIs?
+
+Number of contexts: 3
+
+[Context 1]
+The document explains that APIs (Application Programming Interfaces) are used by developers to allow different pieces of software to communicate and work together smoothly. They act as a set of rules that enable one program to request information or actions from another without needing to understand its internal workings. APIs bridge the gap between the frontend (user interface) and the backend (server-side logic and data). The document highlights several key reasons why APIs are prevalent in mo...
+
+[Context 2]
+Developers use APIs for several key reasons: * **Seamless Integration Across Services:** APIs allow different software systems and services to communicate and work together smoothly, even if they were developed independently. * **Connecting Frontend and Backend:** In modern web development, especially with headless and decoupled architectures, APIs are crucial for the frontend to communicate with the backend, enabling dynamic content retrieval and management. * **Microservices and Modular Develo...
+
+[Context 3]
+The document explains that developers use APIs for several key reasons: * **Interoperability:** APIs enable different software systems, often built with different technologies, to communicate with each other. This breaks down data silos and prevents redundant efforts. * **Integration:** APIs allow developers to connect disparate applications, services, and databases, enabling them to be stitched together into a unified experience. This "lego block" approach reduces development time and costs. * ...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "Developers use APIs (Application Programming Interfaces) primarily to enable different applications to communicate with each other. As defined in the candidate article, an API is a set of rules and definitions that allows this inter-application communication. Developers leverage APIs to access data or functionality from external services without needing to understand their internal implementations.\n\nThis approach offers several key benefits, as highlighted in the candidate article:\n*   **Integration:** APIs facilitate the integration of different software systems, allowing them to share data and functionality.\n*   **Faster Development:** They enable quicker development by allowing the reuse of existing functionalities.\n*   **Innovation:** APIs foster innovation by making it possible to create new applications and services by combining existing ones.\n\nBeyond these fundamental reasons, APIs are also crucial for connecting frontend and backend systems, enabling modular development through microservices, integrating third-party services (like payment gateways or maps), supporting multiple platforms (web, mobile), and facilitating real-time capabilities, automation, and controlled data sharing between platforms. They contribute to scalability, improved user experience, and cost-effectiveness in modern software development.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.67,
+    "AD": 0.5
+  },
+  "why": {
+    "CP": "The candidate article is clearly cited at the beginning when defining an API and again when introducing the key benefits derived from it.",
+    "AA": "All statements attributed to the candidate article, such as the definition of an API and the reasons for its use (accessing external functionality without internal knowledge, integration, faster development, innovation), are accurately reflected in the article's content.",
+    "FA": "The answer faithfully represents the meaning of the candidate article without any distortion. The core reasons and the definition provided by the article are accurately conveyed.",
+    "KC": "The candidate article covers essential concepts for the query, including the definition of an API and four primary reasons why developers use them: accessing external functionality without internal knowledge, facilitating integration, enabling faster development, and fostering innovation. While external contexts add more specific examples and additional reasons, the article provides a strong foundational understanding.",
+    "SC": "The candidate article contributes central meaning by providing the core definition of an API and four fundamental reasons for its use. These points form the backbone of the answer's explanation of 'why developers use APIs,' even though external contexts elaborate further and add more reasons.",
+    "AD": "The candidate article's content forms the entirety of the first paragraph and the bulleted list of key benefits, which together constitute a significant portion (roughly half) of the overall answer. The remaining content expands on these points using external contexts."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: What do APIs allow applications to do?
+
+Number of contexts: 3
+
+[Context 1]
+APIs allow applications to communicate with each other, enabling them to share data and features. They act as middlemen, defining rules and tools for one application to request services or data from another. This connectivity is crucial for modern technology, powering services like social media and e-commerce, and saving developers time by allowing them to reuse existing functionalities instead of building everything from scratch. For instance, a weather app uses an API to retrieve forecast data...
+
+[Context 2]
+The document states that APIs allow applications to do the following: - **Interoperability**: Enable different software systems to communicate with each other. - **Integration**: Connect disparate applications, services, and databases. - **Innovation & Ecosystems**: Foster the creation of new applications and services by empowering external developers. - **Efficiency & Automation**: Streamline workflows and reduce manual effort by allowing systems to interact programmatically. - **Data Sharing &...
+
+[Context 3]
+APIs allow different software applications to communicate and interact with each other, enabling integration and data exchange between systems.
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "According to the candidate article, APIs (Application Programming Interfaces) are a set of rules and definitions that allow applications to communicate with each other. They enable developers to access data or functionality from external services without needing to know their internal implementations. This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services. Additionally, APIs act as middlemen for sharing data and features, streamline workflows, and can enable data sharing and monetization.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.83,
+    "AD": 0.67
+  },
+  "why": {
+    "CP": "The answer prominently attributes information to the candidate article by starting with 'According to the candidate article,' clearly indicating the source of the initial and core definitions.",
+    "AA": "All statements explicitly or implicitly attributed to the candidate article (the first three sentences) are accurately reflected from its content. No information from the candidate article is misrepresented.",
+    "FA": "The information extracted from the candidate article is presented faithfully, maintaining its original meaning and context without any distortion.",
+    "KC": "The candidate article covers essential concepts regarding what APIs allow applications to do, including communication, accessing data/functionality, facilitating integration, enabling faster development, and fostering innovation. While external contexts add a few more points (like monetization or acting as middlemen), the candidate article provides a strong foundation of key functionalities.",
+    "SC": "The candidate article provides the fundamental definition of an API and its core functionalities (communication, accessing external services, integration, faster development, innovation). While these points are also present in the contexts, the candidate article presents them clearly and concisely, serving as a central source for these key aspects of the answer.",
+    "AD": "A significant portion of the answer, specifically the first three sentences which cover the definition and five key functions of APIs, is derived directly from the candidate article. The remaining part of the answer, adding further details, comes from the external contexts, making the candidate article's contribution dominant but not exclusive."
+  }
+}
+
+======== Analyst: proposed edits ========
+
+[edits]
+{
+  "edits": [
+    {
+      "target_metric": "AD",
+      "reason": "The article's introductory explanation of API benefits and use cases is quite general, requiring external knowledge for specific examples. This edit integrates key applications like connecting systems, modular development, and third-party integrations directly into the first paragraph, making the information more self-contained.",
+      "location_hint": "This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services.",
+      "operation": "replace_span",
+      "patch": "APIs are crucial for facilitating integration between different software systems, enabling faster development by reusing existing functionalities, and fostering innovation through the creation of new applications and services. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services like payment gateways or mapping tools. This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences."
+    },
+    {
+      "target_metric": "AD",
+      "reason": "The article briefly mentions API security without elaborating on specific mechanisms, forcing readers to seek external information. This edit adds details on common security practices, such as API keys, OAuth, and JWT, to provide a more comprehensive explanation within the article.",
+      "location_hint": "Security: APIs often use authentication and authorization mechanisms to protect data.",
+      "operation": "replace_span",
+      "patch": "Security: APIs commonly employ robust authentication and authorization mechanisms to protect data and control access. These often include API keys for identification, OAuth for delegated authorization, and JSON Web Tokens (JWTs) for secure information exchange, ensuring that only authorized users and applications can interact with the API."
+    },
+    {
+      "target_metric": "AD",
+      "reason": "The article states that 'Proper API governance is crucial' but does not explain what this entails, creating an information gap. This edit clarifies key aspects of API governance, such as lifecycle management and standardization, making the information more self-contained.",
+      "location_hint": "Proper API governance is crucial.",
+      "operation": "insert_after",
+      "patch": "Effective API governance involves defining standards for design and documentation, managing the API lifecycle from creation to deprecation, and ensuring consistent security policies across all APIs. This structured approach helps maintain quality, reliability, and security."
+    }
+  ]
+}
+
+======== ITER 2 — Chosen edit ========
+
+[chosen_edit]
+{
+  "target_metric": "AD",
+  "reason": "The article's introductory explanation of API benefits and use cases is quite general, requiring external knowledge for specific examples. This edit integrates key applications like connecting systems, modular development, and third-party integrations directly into the first paragraph, making the information more self-contained.",
+  "location_hint": "This facilitates integration between different software systems, enables faster development by reusing existing functionalities, and fosters innovation by allowing the creation of new applications and services.",
+  "operation": "replace_span",
+  "patch": "APIs are crucial for facilitating integration between different software systems, enabling faster development by reusing existing functionalities, and fostering innovation through the creation of new applications and services. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services like payment gateways or mapping tools. This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences.",
+  "tag": "Fluent"
+}
+
+======== ITER 2 — Editor Output (New Document) ========
+API (Application Programming Interface) is a set of rules and definitions that
+allows applications to communicate with each other. Developers use APIs to access
+data or functionality from external services without knowing their internal implementations.
+
+APIs are crucial for facilitating integration between different software systems, enabling faster development by reusing existing functionalities, and fostering innovation through the creation of new applications and services. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services like payment gateways or mapping tools. This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences.
+
+Most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).
+
+================================================================================
+
+======== Evaluator: Query & Contexts ========
+Query: What is an API?
+
+Number of contexts: 3
+
+[Context 1]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Applications:** They facilitate the sharing of data and features between applications...
+
+[Context 2]
+An API, which stands for application programming interface, acts as a bridge between different software applications, allowing them to communicate, share data, and collaborate. It functions as a common language that enables one application to request data or trigger processes from another without needing to understand its internal workings. APIs are fundamental to modern software development, facilitating efficient interaction between apps, services, and systems, and are utilized in a wide range...
+
+[Context 3]
+An API, which stands for application programming interface, is a set of protocols and instructions that define how two software components communicate with each other. APIs operate behind the scenes, enabling users to find and retrieve requested information, unlike user interfaces that are visible to everyone. They function like contracts that govern the interaction between two software systems. Examples of APIs include: * **YouTube API:** Allows embedding videos on websites or apps, and managin...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "An API, or Application Programming Interface, is defined as a set of rules and definitions that allows different software applications to communicate with each other. It functions as an intermediary, enabling developers to access data or functionality from external services without needing to understand their internal implementations [CANDIDATE_ARTICLE].\n\nAPIs are crucial for modern software development because they facilitate integration between disparate software systems, enable faster development by allowing the reuse of existing functionalities, and foster innovation by supporting the creation of new applications and services [CANDIDATE_ARTICLE]. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services such as payment gateways or mapping tools [CANDIDATE_ARTICLE]. This broad utility supports multi-platform development, automation, controlled data sharing, scalable solutions, and improved user experiences [CANDIDATE_ARTICLE].\n\nMost commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol) [CANDIDATE_ARTICLE].",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 1.0,
+    "SC": 0.83,
+    "AD": 0.83
+  },
+  "why": {
+    "CP": "The candidate article is cited prominently and repeatedly throughout the answer, with almost every sentence or clause attributed to it.",
+    "AA": "All statements attributed to the candidate article are directly and accurately verifiable within its text.",
+    "FA": "The answer faithfully represents the information and meaning presented in the candidate article without any distortion.",
+    "KC": "The candidate article covers all essential concepts required to answer 'What is an API?'. It defines what an API is, its purpose, its importance/benefits, and common architectural styles/protocols.",
+    "SC": "The candidate article provides the core, comprehensive definition of an API, its primary functions, and a detailed list of its benefits and common technical characteristics. While contexts reinforce some points and add examples, the candidate article's contribution is central and sufficient to form a complete answer to the query.",
+    "AD": "The vast majority of the answer's content, including the core definition, purpose, benefits, and technical details, is derived directly from the candidate article. The answer could largely be formed using only the candidate article."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: Why do developers use APIs?
+
+Number of contexts: 3
+
+[Context 1]
+The document explains that APIs (Application Programming Interfaces) are used by developers to allow different pieces of software to communicate and work together smoothly. They act as a set of rules that enable one program to request information or actions from another without needing to understand its internal workings. APIs bridge the gap between the frontend (user interface) and the backend (server-side logic and data). The document highlights several key reasons why APIs are prevalent in mo...
+
+[Context 2]
+Developers use APIs for several key reasons: * **Seamless Integration Across Services:** APIs allow different software systems and services to communicate and work together smoothly, even if they were developed independently. * **Connecting Frontend and Backend:** In modern web development, especially with headless and decoupled architectures, APIs are crucial for the frontend to communicate with the backend, enabling dynamic content retrieval and management. * **Microservices and Modular Develo...
+
+[Context 3]
+The document explains that developers use APIs for several key reasons: * **Interoperability:** APIs enable different software systems, often built with different technologies, to communicate with each other. This breaks down data silos and prevents redundant efforts. * **Integration:** APIs allow developers to connect disparate applications, services, and databases, enabling them to be stitched together into a unified experience. This "lego block" approach reduces development time and costs. * ...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "Developers use APIs (Application Programming Interfaces) primarily to access data or functionality from external services without needing to understand their internal implementations [1]. APIs are defined as a set of rules and definitions that enable different applications to communicate with each other [1].\n\nKey reasons for their widespread use include:\n*   **Facilitating Integration:** APIs are crucial for connecting disparate software systems, allowing them to share data and functionality [1].\n*   **Faster Development:** They enable developers to reuse existing functionalities, which significantly speeds up the development process [1].\n*   **Fostering Innovation:** APIs promote innovation by allowing for the creation of new applications and services built upon existing ones [1].\n*   **Connecting Frontend and Backend:** They are essential for enabling communication between frontend and backend systems [1].\n*   **Modular Development:** APIs support modular development approaches, frequently seen in microservices architectures [1].\n*   **Integrating Third-Party Services:** Developers utilize APIs to integrate external services such as payment gateways or mapping tools [1].\n*   **Multi-Platform Support:** APIs facilitate the development of applications that can run across multiple platforms [1].\n*   **Automation and Controlled Data Sharing:** They enable automation of processes and provide a mechanism for controlled sharing of data [1].\n*   **Scalable Solutions and Improved User Experiences:** Ultimately, the use of APIs leads to the creation of scalable solutions and enhanced user experiences [1].",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 1.0,
+    "SC": 1.0,
+    "AD": 1.0
+  },
+  "why": {
+    "CP": "The candidate article is clearly and prominently cited with `[1]` after every piece of information derived from it, making its contribution explicit.",
+    "AA": "All statements attributed to the candidate article accurately reflect the information presented within it.",
+    "FA": "The answer remains entirely faithful to the meaning and information provided in the candidate article, without any distortions or misrepresentations.",
+    "KC": "The candidate article comprehensively covers all the essential concepts and reasons for why developers use APIs, providing a thorough answer to the query.",
+    "SC": "The candidate article provides all the unique and central meaning required to answer the query. The external contexts, while extensive, largely elaborate on or provide examples for the categories already mentioned in the candidate article, rather than introducing fundamentally new, essential reasons not covered. Therefore, the candidate article itself supplies the necessary unique content.",
+    "AD": "The entire content of the answer is derived exclusively from the candidate article. No information from the external contexts was used to construct the final answer."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: What do APIs allow applications to do?
+
+Number of contexts: 3
+
+[Context 1]
+APIs allow applications to communicate with each other, enabling them to share data and features. They act as middlemen, defining rules and tools for one application to request services or data from another. This connectivity is crucial for modern technology, powering services like social media and e-commerce, and saving developers time by allowing them to reuse existing functionalities instead of building everything from scratch. For instance, a weather app uses an API to retrieve forecast data...
+
+[Context 2]
+The document states that APIs allow applications to do the following: - **Interoperability**: Enable different software systems to communicate with each other. - **Integration**: Connect disparate applications, services, and databases. - **Innovation & Ecosystems**: Foster the creation of new applications and services by empowering external developers. - **Efficiency & Automation**: Streamline workflows and reduce manual effort by allowing systems to interact programmatically. - **Data Sharing &...
+
+[Context 3]
+APIs allow different software applications to communicate and interact with each other, enabling integration and data exchange between systems.
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "APIs (Application Programming Interfaces) are a set of rules and definitions that allow applications to communicate with each other, enabling developers to access data or functionality from external services without needing to know their internal implementations, as stated in the candidate article.\n\nAccording to the candidate article, APIs are crucial for:\n*   **Facilitating integration** between different software systems.\n*   **Enabling faster development** by reusing existing functionalities.\n*   **Fostering innovation** through the creation of new applications and services.\n*   **Connecting frontend and backend systems**.\n*   **Enabling modular development**, often through microservices.\n*   **Integrating third-party services** like payment gateways or mapping tools.\n*   **Supporting multi-platform development, automation, and controlled data sharing**.\n*   Ultimately leading to **scalable solutions and improved user experiences**.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 1.0,
+    "SC": 0.83,
+    "AD": 1.0
+  },
+  "why": {
+    "CP": "The candidate article is explicitly cited multiple times in the answer, using phrases like 'as stated in the candidate article' and 'According to the candidate article'.",
+    "AA": "All statements attributed to the candidate article in the answer directly originate from its content.",
+    "FA": "The answer accurately reflects the meaning and information presented in the candidate article without any distortion.",
+    "KC": "The candidate article comprehensively covers the essential concepts of what APIs allow applications to do, providing a detailed list of functionalities.",
+    "SC": "The candidate article contributes substantial unique meaning by providing a more detailed and specific list of functionalities compared to the contexts. This includes points like 'connecting frontend and backend systems', 'enabling modular development (often through microservices)', 'integrating third-party services like payment gateways or mapping tools', 'multi-platform development', and leading to 'scalable solutions and improved user experiences', which are not as explicitly or comprehensively covered in the external contexts.",
+    "AD": "The entire content of the answer is derived exclusively from the candidate article. No information from the external contexts was used in constructing this answer."
+  }
+}
+
+======== Analyst: proposed edits ========
+
+[edits]
+{
+  "edits": [
+    {
+      "target_metric": "CP",
+      "reason": "Adding a basic explanation of the request-response interaction model will provide a more complete understanding of how applications communicate via APIs, clarifying the underlying mechanism beyond just 'rules and definitions'.",
+      "location_hint": "Developers use APIs to access data or functionality from external services without knowing their internal implementations.",
+      "operation": "insert_after",
+      "patch": "This communication typically involves an application making a 'request' to an API, and the API then sending back a 'response' containing the requested data or confirming an action."
+    },
+    {
+      "target_metric": "CP",
+      "reason": "Including concrete, widely recognized examples of APIs will enhance the article's completeness by making the abstract concept more tangible and relatable for readers, improving understanding of its practical applications.",
+      "location_hint": "Developers use APIs to access data or functionality from external services without knowing their internal implementations.",
+      "operation": "insert_after",
+      "patch": "For instance, when you use a weather app, it often uses an API to get real-time weather data from a weather service. Similarly, social media apps use APIs to integrate features like sharing content from other platforms."
+    },
+    {
+      "target_metric": "CP",
+      "reason": "Adding a brief overview of different API types (public, private, partner) will enhance the article's completeness by categorizing APIs based on their access and usage, offering a broader perspective beyond just architectural styles.",
+      "location_hint": "This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences.",
+      "operation": "insert_after",
+      "patch": "\n\nAPIs can also be categorized by their accessibility: 'public APIs' are openly available, 'private APIs' are for internal use within an organization, and 'partner APIs' are shared with specific business partners for integration."
+    }
+  ]
+}
+
+======== ITER 3 — Chosen edit ========
+
+[chosen_edit]
+{
+  "target_metric": "CP",
+  "reason": "Adding a basic explanation of the request-response interaction model will provide a more complete understanding of how applications communicate via APIs, clarifying the underlying mechanism beyond just 'rules and definitions'.",
+  "location_hint": "Developers use APIs to access data or functionality from external services without knowing their internal implementations.",
+  "operation": "insert_after",
+  "patch": "This communication typically involves an application making a 'request' to an API, and the API then sending back a 'response' containing the requested data or confirming an action.",
+  "tag": "Technical Terms"
+}
+
+======== ITER 3 — Editor Output (New Document) ========
+API (Application Programming Interface) is a set of rules and definitions that
+allows applications to communicate with each other. Developers use APIs to access
+data or functionality from external services without knowing their internal implementations.
+
+APIs are crucial for facilitating integration between different software systems, enabling faster development by reusing existing functionalities, and fostering innovation through the creation of new applications and services. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services like payment gateways or mapping tools. This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences.
+
+Most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).
+
+This communication typically involves an application making a 'request' to an API, and the API then sending back a 'response' containing the requested data or confirming an action.
+
+================================================================================
+
+======== Evaluator: Query & Contexts ========
+Query: What is an API?
+
+Number of contexts: 3
+
+[Context 1]
+An API, which stands for Application Programming Interface, acts as an intermediary that enables different software applications to communicate with each other. It provides a set of rules and tools that allow one application to request data or services from another. For instance, a weather app utilizes an API to retrieve the latest weather data from a server. APIs are crucial for several reasons: * **Connecting Applications:** They facilitate the sharing of data and features between applications...
+
+[Context 2]
+An API, which stands for application programming interface, acts as a bridge between different software applications, allowing them to communicate, share data, and collaborate. It functions as a common language that enables one application to request data or trigger processes from another without needing to understand its internal workings. APIs are fundamental to modern software development, facilitating efficient interaction between apps, services, and systems, and are utilized in a wide range...
+
+[Context 3]
+An API, which stands for application programming interface, is a set of protocols and instructions that define how two software components communicate with each other. APIs operate behind the scenes, enabling users to find and retrieve requested information, unlike user interfaces that are visible to everyone. They function like contracts that govern the interaction between two software systems. Examples of APIs include: * **YouTube API:** Allows embedding videos on websites or apps, and managin...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "An API, which stands for Application Programming Interface, is defined as a set of rules and definitions that allows different software applications to communicate with each other. According to the article, developers use APIs to access data or functionality from external services without needing to understand their internal implementations.\n\nThe article highlights that APIs are crucial for facilitating integration between various software systems, enabling faster development by reusing existing functionalities, and fostering innovation through the creation of new applications and services. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services like payment gateways or mapping tools. This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences.\n\nCommunication via an API typically involves an an application making a 'request' to an API, and the API then sending back a 'response' containing the requested data or confirming an action. The article notes that most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 1.0,
+    "SC": 0.83,
+    "AD": 1.0
+  },
+  "why": {
+    "CP": "The answer clearly attributes information to the candidate article using phrases like 'According to the article,' 'The article highlights,' and 'The article notes.'",
+    "AA": "All statements attributed to the candidate article are directly and accurately verifiable within its text.",
+    "FA": "The answer faithfully represents the meaning and content of the candidate article without any distortion or misinterpretation.",
+    "KC": "The candidate article provides a comprehensive explanation of what an API is, covering its definition, purpose, benefits, how it works (request/response), and common architectural styles/protocols (HTTP, REST, SOAP). It covers all essential concepts required to answer the query thoroughly.",
+    "SC": "The candidate article provides the core definition, fundamental purpose, operational mechanism, and common technical styles of an API, which are central to answering the query. While external contexts offer additional examples and specific details, the candidate article itself supplies the necessary unique content for a robust explanation.",
+    "AD": "The entirety of the answer content is derived directly from the candidate article. No information from the external contexts was incorporated into the final answer."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: Why do developers use APIs?
+
+Number of contexts: 3
+
+[Context 1]
+The document explains that APIs (Application Programming Interfaces) are used by developers to allow different pieces of software to communicate and work together smoothly. They act as a set of rules that enable one program to request information or actions from another without needing to understand its internal workings. APIs bridge the gap between the frontend (user interface) and the backend (server-side logic and data). The document highlights several key reasons why APIs are prevalent in mo...
+
+[Context 2]
+Developers use APIs for several key reasons: * **Seamless Integration Across Services:** APIs allow different software systems and services to communicate and work together smoothly, even if they were developed independently. * **Connecting Frontend and Backend:** In modern web development, especially with headless and decoupled architectures, APIs are crucial for the frontend to communicate with the backend, enabling dynamic content retrieval and management. * **Microservices and Modular Develo...
+
+[Context 3]
+The document explains that developers use APIs for several key reasons: * **Interoperability:** APIs enable different software systems, often built with different technologies, to communicate with each other. This breaks down data silos and prevents redundant efforts. * **Integration:** APIs allow developers to connect disparate applications, services, and databases, enabling them to be stitched together into a unified experience. This "lego block" approach reduces development time and costs. * ...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "Developers primarily use APIs (Application Programming Interfaces) to access data or functionality from external services without needing to understand their internal implementations, as explained in the candidate article. This broad utility serves several key purposes:\n\n*   **Facilitating integration** between different software systems.\n*   **Enabling faster development** by reusing existing functionalities.\n*   **Fostering innovation** through the creation of new applications and services.\n*   **Connecting frontend and backend systems**, which also enables modular development, often through microservices.\n*   **Integrating third-party services** like payment gateways or mapping tools.\n*   **Supporting multi-platform development**.\n*   **Automation** and **controlled data sharing**.\n*   Ultimately leading to **scalable solutions** and **improved user experiences**.\n\nThe candidate article further notes that this communication typically involves an application making a 'request' to an API, and the API then sending back a 'response' containing the requested data or confirming an action.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.83,
+    "SC": 0.67,
+    "AD": 0.83
+  },
+  "why": {
+    "CP": "The candidate article is clearly and prominently cited at the beginning of the answer.",
+    "AA": "All statements attributed to the candidate article directly originate from its content.",
+    "FA": "The answer accurately reflects the meaning and information provided in the candidate article without any distortion.",
+    "KC": "The candidate article covers the essential concepts needed to answer why developers use APIs, providing a clear definition and a comprehensive list of reasons and benefits.",
+    "SC": "The candidate article contributes central meaning to the answer by directly addressing the core query with a substantial list of reasons. While some of these points are also present in the contexts, the article's contribution is significant and forms the backbone of the answer.",
+    "AD": "The vast majority of the answer's content, including the primary reasons and supporting details, is derived directly from the candidate article. External contexts are not used in the generated answer."
+  }
+}
+
+======== Evaluator: Query & Contexts ========
+Query: What do APIs allow applications to do?
+
+Number of contexts: 3
+
+[Context 1]
+APIs allow applications to communicate with each other, enabling them to share data and features. They act as middlemen, defining rules and tools for one application to request services or data from another. This connectivity is crucial for modern technology, powering services like social media and e-commerce, and saving developers time by allowing them to reuse existing functionalities instead of building everything from scratch. For instance, a weather app uses an API to retrieve forecast data...
+
+[Context 2]
+The document states that APIs allow applications to do the following: - **Interoperability**: Enable different software systems to communicate with each other. - **Integration**: Connect disparate applications, services, and databases. - **Innovation & Ecosystems**: Foster the creation of new applications and services by empowering external developers. - **Efficiency & Automation**: Streamline workflows and reduce manual effort by allowing systems to interact programmatically. - **Data Sharing &...
+
+[Context 3]
+APIs allow different software applications to communicate and interact with each other, enabling integration and data exchange between systems.
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "According to the candidate article, APIs (Application Programming Interfaces) are a set of rules and definitions that enable applications to communicate with each other. This communication allows applications to:\n\n*   Access data or functionality from external services without needing to know their internal implementations.\n*   Facilitate integration between different software systems.\n*   Enable faster development by reusing existing functionalities.\n*   Foster innovation through the creation of new applications and services.\n*   Connect frontend and backend systems.\n*   Enable modular development, often through microservices.\n*   Integrate third-party services, such as payment gateways or mapping tools.\n*   Support multi-platform development, automation, and controlled data sharing.\n*   Ultimately lead to scalable solutions and improved user experiences.\n\nThis process typically involves an application making a 'request' to an API, which then sends back a 'response' containing the requested data or confirming an action.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 1.0,
+    "SC": 0.83,
+    "AD": 0.83
+  },
+  "why": {
+    "CP": "The answer prominently attributes the information to the 'candidate article' at the very beginning.",
+    "AA": "All statements attributed to the candidate article are directly quoted or accurately paraphrased from its content.",
+    "FA": "The answer faithfully represents the meaning and details provided in the candidate article without any distortion.",
+    "KC": "The candidate article comprehensively covers the essential concepts needed to answer what APIs allow applications to do, providing a detailed list of functionalities and benefits.",
+    "SC": "The candidate article provides the most extensive and specific list of what APIs allow applications to do, including unique points like 'connecting frontend and backend systems,' 'modular development (microservices),' 'multi-platform development,' 'scalable solutions,' and 'improved user experiences,' which are not as explicitly detailed in the external contexts. While contexts cover some similar ground, the article's contribution is significantly more granular.",
+    "AD": "The vast majority of the answer's content, particularly the detailed list of capabilities, is derived directly from the candidate article. The external contexts primarily reinforce the core idea of communication and integration but do not add substantial new 'what applications can do' points beyond what the candidate article already covers in more detail."
+  }
+}
+
+======== Analyst: proposed edits ========
+
+[edits]
+{
+  "edits": [
+    {
+      "target_metric": "SC",
+      "reason": "To improve Self-Consistency by adding more specific details about the benefits of API reuse for developers, making the information less generic and more uniquely valuable to the article.",
+      "location_hint": "enabling faster development by reusing existing functionalities",
+      "operation": "replace_span",
+      "patch": "enabling significantly faster development by reusing well-tested existing functionalities, thereby reducing boilerplate code and development effort"
+    },
+    {
+      "target_metric": "SC",
+      "reason": "To enhance Self-Consistency by providing more specific examples of how APIs support automation and data sharing, making these points more distinct and less generic compared to external contexts.",
+      "location_hint": "automation, and controlled data sharing",
+      "operation": "replace_span",
+      "patch": "automation of complex workflows, and secure, granular controlled data sharing"
+    },
+    {
+      "target_metric": "SC",
+      "reason": "To boost Self-Consistency by adding a more specific outcome of innovation fostered by APIs, highlighting their role in creating new business models, which might be less commonly emphasized in generic definitions.",
+      "location_hint": "fostering innovation through the creation of new applications and services.",
+      "operation": "replace_span",
+      "patch": "fostering innovation by enabling developers to build new applications, services, and even entirely new business models on top of existing platforms."
+    }
+  ]
+}
+
+======== ITER 4 — Chosen edit ========
+
+[chosen_edit]
+{
+  "target_metric": "SC",
+  "reason": "To improve Self-Consistency by adding more specific details about the benefits of API reuse for developers, making the information less generic and more uniquely valuable to the article.",
+  "location_hint": "enabling faster development by reusing existing functionalities",
+  "operation": "replace_span",
+  "patch": "enabling significantly faster development by reusing well-tested existing functionalities, thereby reducing boilerplate code and development effort",
+  "tag": "Fluent"
+}
+
+======== ITER 4 — Editor Output (New Document) ========
+API (Application Programming Interface) is a set of rules and definitions that
+allows applications to communicate with each other. Developers use APIs to access
+data or functionality from external services without knowing their internal implementations.
+
+APIs are crucial for facilitating integration between different software systems, enabling significantly faster development by reusing well-tested existing functionalities, thereby reducing boilerplate code and development effort, and fostering innovation through the creation of new applications and services. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services like payment gateways or mapping tools. This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences.
+
+Most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).
+
+This communication typically involves an application making a 'request' to an API, and the API then sending back a 'response' containing the requested data or confirming an action.
+
+================================================================================
+
+=== Iteration summary (MIS per iter) ===
+iter 00 | CP:0.83 AA:1.00 FA:1.00 KC:0.67 SC:0.78 AD:0.44 | scalar=4.711
+iter 01 | CP:0.83 AA:1.00 FA:1.00 KC:0.83 SC:0.67 AD:0.67 | scalar=4.993
+iter 02 | CP:0.83 AA:1.00 FA:1.00 KC:0.83 SC:0.72 AD:0.67 | scalar=5.045
+iter 03 | CP:0.83 AA:1.00 FA:1.00 KC:1.00 SC:0.89 AD:0.94 | scalar=5.657
+iter 04 | CP:0.83 AA:1.00 FA:1.00 KC:0.94 SC:0.78 AD:0.89 | scalar=5.433
+
+=== Winner ===
+Iteration: 3, scalar=5.657
+{'MIS': {'CP': 0.83, 'AA': 1.0, 'FA': 1.0, 'KC': 1.0, 'SC': 0.8867, 'AD': 0.9433}, 'ISR': {'CP': 1.0, 'AA': 1.0, 'FA': 1.0, 'KC': 1.0, 'SC': 1.0, 'AD': 1.0}, 'MIV': {'CP': 0.0, 'AA': 0.0, 'FA': 0.0, 'KC': 0.0, 'SC': 0.0064, 'AD': 0.0064}}
+
+=== Selected Document ===
+
+API (Application Programming Interface) is a set of rules and definitions that
+allows applications to communicate with each other. Developers use APIs to access
+data or functionality from external services without knowing their internal implementations.
+
+APIs are crucial for facilitating integration between different software systems, enabling faster development by reusing existing functionalities, and fostering innovation through the creation of new applications and services. They are also essential for connecting frontend and backend systems, enabling modular development (often through microservices), and integrating third-party services like payment gateways or mapping tools. This broad utility supports multi-platform development, automation, and controlled data sharing, ultimately leading to scalable solutions and improved user experiences.
+
+Most commonly, APIs are web-based, utilizing protocols like HTTP and often following architectural styles such as REST (Representational State Transfer) or SOAP (Simple Object Access Protocol).
+
+Loading GEO-Bench train split from: hf://datasets/GEO-Optim/geo-bench/train.jsonl
+Loading GEO-Bench train split from: hf://datasets/GEO-Optim/geo-bench/train.jsonl
+Loading GEO-Bench train split from: hf://datasets/GEO-Optim/geo-bench/train.jsonl
+GEO-Bench dataframe shape: (8000, 3)
+
+Columns:
+ ['query', 'dset', 'sugg_idx']
+
+First 3 rows:
+                                               query  dset  sugg_idx
+0  how does the pokemon bank work? What can I do ...  eli5         3
+1                         why is salt used in wells?    ms         1
+2         Why does time stand still in a black hole?  eli5         3
+Loading GEO-Bench train split from: hf://datasets/GEO-Optim/geo-bench/train.jsonl
+GEO-Bench dataframe shape: (8000, 3)
+
+Columns:
+ ['query', 'dset', 'sugg_idx']
+
+First 3 rows:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 8000 entries, 0 to 7999
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype 
+---  ------    --------------  ----- 
+ 0   query     8000 non-null   object
+ 1   dset      8000 non-null   object
+ 2   sugg_idx  8000 non-null   int64 
+dtypes: int64(1), object(2)
+memory usage: 187.6+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 8000 entries, 0 to 7999
+Data columns (total 3 columns):
+ #   Column    Non-Null Count  Dtype 
+---  ------    --------------  ----- 
+ 0   query     8000 non-null   object
+ 1   dset      8000 non-null   object
+ 2   sugg_idx  8000 non-null   int64 
+dtypes: int64(1), object(2)
+memory usage: 187.6+ KB
+None
