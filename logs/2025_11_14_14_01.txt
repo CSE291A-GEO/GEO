@@ -1,0 +1,61 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-14 14:01:20
+Log file: logs/2025_11_14_14_01.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_14_14_01.txt
+
+
+======== Query Agent: generated queries ========
+1. What does API stand for and what is its basic definition?
+2. How do developers utilize APIs in their work?
+3. What is the primary function of an API regarding application communication?
+
+======== Retrieval: per-query context counts ========
+- What does API stand for and what is its basic definition?...  | ctx=2
+- How do developers utilize APIs in their work?...  | ctx=3
+- What is the primary function of an API regarding application communication?...  | ctx=3
+
+======== Retrieved Contexts (Full Content) ========
+
+--- Query 1: What does API stand for and what is its basic definition? ---
+
+[Context 1]
+API stands for Application Programming Interface. It is a set of rules and tools that allows different software applications to communicate with each other, enabling them to request data or services from one another. Essentially, it acts as a middleman facilitating smooth communication between applications without requiring one to understand the internal workings of the other.
+
+[Context 2]
+API stands for Application Programming Interface. It is an interface that allows different software applications to communicate with each other. APIs are a central component of modern software development and are used in numerous areas, including payment services, social media integrations, and cloud computing.
+
+--- Query 2: How do developers utilize APIs in their work? ---
+
+[Context 1]
+Developers utilize APIs in their work by using them as essential tools to enable communication between different applications. This involves understanding API documentation to learn about endpoints, request methods, parameters, authentication, and error handling. They set up their development environment using tools like Postman, cURL, or HTTP libraries in programming languages. Authentication is a key step, often involving API keys, OAuth, or Basic Auth, to ensure authorized access. Developers ...
+
+[Context 2]
+Developers utilize APIs to enable communication between different applications. Specifically, web APIs, which use the HTTP protocol, allow developers to create enhanced user experiences. The document mentions that APIs follow a specific request and response structure using HTTP methods like GET, POST, DELETE, and PUT to perform various tasks. Developers also encounter different types of APIs, including internal, open, partner, and composite APIs, each serving distinct purposes in software develo...
+
+[Context 3]
+Developers utilize APIs in their work in several key ways: * **Bridging Code Gaps:** APIs act as connectors, enabling different software components to communicate and transfer data. This allows developers to build applications that are powerful, resilient, secure, and meet user needs by integrating various pieces of code. * **Integrating Systems:** A primary use case for APIs is to connect different systems, both internal and external. For example, developers can use APIs to link a customer rela...
+
+--- Query 3: What is the primary function of an API regarding application communication? ---
+
+[Context 1]
+The primary function of an API (Application Programming Interface) regarding application communication is to act as a framework of rules and protocols that enable different software applications to communicate with each other. APIs facilitate the seamless exchange of information by defining specific methods and data formats, serving as intermediaries that connect disparate systems.
+
+[Context 2]
+The primary function of an API (Application Programming Interface) regarding application communication is to act as a set of definitions, protocols, and tools that allow different software applications to communicate and interact with each other. This enables integration and data exchange between systems.
+
+[Context 3]
+The primary function of an API (Application Programming Interface) regarding application communication is to act as a set of protocols, tools, and definitions that allow different software applications to communicate with each other. It serves as an intermediary, defining the methods and data formats that applications can use to request and exchange information, thereby enabling software integration, promoting reusability, and accelerating development timelines.
+Frozen corpus saved to: corpus_e115757a99.json with 3 queries.
+
+======== Evaluator: Query & Contexts ========
+Query: What does API stand for and what is its basic definition?
+
+Number of contexts: 2
+
+[Context 1]
+API stands for Application Programming Interface. It is a set of rules and tools that allows different software applications to communicate with each other, enabling them to request data or services from one another. Essentially, it acts as a middleman facilitating smooth communication between applications without requiring one to understand the internal workings of the other.
+
+[Context 2]
+API stands for Application Programming Interface. It is an interface that allows different software applications to communicate with each other. APIs are a central component of modern software development and are used in numerous areas, including payment services, social media integrations, and cloud computing.

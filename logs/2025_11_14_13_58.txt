@@ -1,0 +1,19 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-14 13:58:45
+Log file: logs/2025_11_14_13_58.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_14_13_58.txt
+
+
+======== Query Agent: generated queries ========
+1. What is an API?
+2. What does API stand for?
+3. What is the primary function of an API?
+4. How do applications communicate with each other using an API?
+5. What constitutes an API?
+6. What can developers access from external services by using APIs?
+7. What information about external services do developers not need to know when using an API?
+8. How do developers use APIs in their work?
+9. What is the method for developers to interact with external services without understanding their internal implementations?
+10. What role do APIs play in connecting different applications?
