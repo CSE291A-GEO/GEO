@@ -1,0 +1,68 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-27 02:27:03
+Log file: logs/2025_11_27_02_27.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_27_02_27.txt
+
+================================================================================
+🚀 Starting Experiment at 2025-11-27 02:27:04
+================================================================================
+
+📋 Configuration:
+  - CSV Path: ../data/queries/combined_queries_1000.csv
+  - Queries to process: 5
+  - Start index: 0
+  - Iterations per query: 5
+  - Generated queries per article: 5
+  - Contexts to retrieve: 5
+  - Output directory: data
+  - Resume from existing: True
+
+================================================================================
+
+[02:27:04] Loaded 998 queries from ../data/queries/combined_queries_1000.csv
+[02:27:04] 📊 Total queries in CSV: 998
+[02:27:04] 🔍 Checking for processed queries in: data/metrics_temp.csv
+[02:27:04] 📂 Loaded 45 processed queries from: data/metrics_temp.csv
+[02:27:04] ⏭️  Skipping 45 already processed queries
+[02:27:04] 📋 953 queries remaining to process
+[02:27:04] 📊 Processing queries: 5 remaining
+
+--------------------------------------------------------------------------------
+
+
+======== Query 24/998 (Processing 1/5) ========
+📝 Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs,...
+
+======== Processing Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs, but it should have one of the highest tier of graphics cards. I would like it to be wide screened. Black, or  maybe a fun colour depending what is available.I prefer a wider screen. The keyboard should have the keys that are a little bit more flat as opposed to the raised, boxier keys. A webcam would be nice but optional. It should definitely have the proper plugin for my headset. Please provide some product recommendations for me ========
+[02:27:08] Warning: Only 0 contexts retrieved for query: I would like to get a new gaming laptop. I'm not k...
+[02:27:08] ❌ Failed: Retrieval failed | Total failures: 1/1
+[02:27:08] 💾 Saving intermediate results...
+[02:27:08] Created articles file: data/articles.csv
+[02:27:08] No successful results, skipping CSV write
+
+======== Query 32/998 (Processing 2/5) ========
+📝 Query: The laptop I would want as a replacement is one that doesn't just do basic tasks, but is also suitab...
+
+======== Processing Query: The laptop I would want as a replacement is one that doesn't just do basic tasks, but is also suitable for artistic tasks like photo editing and video editing. These are two of my hobbies and a basic laptop won't do. I think that would require at least a 4 core processor. I also want one that is light and portable because i like to travel and I like a computer that has a nice aesthetic appearance because I like to think of my laptop as an accessory, but a useful one. Please provide some product recommendations for me ========
+[02:27:09] Warning: Only 0 contexts retrieved for query: The laptop I would want as a replacement is one th...
+[02:27:09] ❌ Failed: Retrieval failed | Total failures: 2/2
+[02:27:09] 💾 Saving intermediate results...
+[02:27:09] Appended to articles file: data/articles.csv
+[02:27:09] No successful results, skipping CSV write
+
+======== Query 44/998 (Processing 3/5) ========
+📝 Query: I'm looking at new laptops that are made by brands with a good reputation. What's really important i...
+
+======== Processing Query: I'm looking at new laptops that are made by brands with a good reputation. What's really important is that they have a large hard drive and SSD because I store a lot of photos and SSD is more stable. It would need a good amount of RAM and processing power to ensure that laptop can run smoothly using some intense programs such as Lightroom and can easily cope with a lot of browser tabs open at the same time without sounding like a plane getting ready to take off. Something in a cool colour would be a bonus, but I don't have to have that if the laptop has all the other more important features I want. I'd prefer something that isn't loaded with a lot of pre installed junk that is never really used and often just causes the laptop to slow down. It would need to have a WiFi card and I'd want to get Microsoft Office for it. Please provide some product recommendations for me ========
+[02:27:10] Warning: Only 0 contexts retrieved for query: I'm looking at new laptops that are made by brands...
+[02:27:10] ❌ Failed: Retrieval failed | Total failures: 3/3
+[02:27:10] 💾 Saving intermediate results...
+[02:27:10] Appended to articles file: data/articles.csv
+[02:27:10] No successful results, skipping CSV write
+
+======== Query 49/998 (Processing 4/5) ========
+📝 Query: My old laptop actually did breaks down recently and I’d love to replace it with a MacBook Pro. I rea...
+
+======== Processing Query: My old laptop actually did breaks down recently and I’d love to replace it with a MacBook Pro. I really love and appreciate the simplicity of Apple products. They’re both simple and sleek in design, and very easy to use and figure out. My old MacBook was super user-friendly and lasted over 10 years so I’d feel confident making an investment in an upgraded MacBook. Please provide some product recommendations for me ========

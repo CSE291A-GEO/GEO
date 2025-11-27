@@ -1,0 +1,308 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-25 20:07:04
+Log file: logs/2025_11_25_20_07.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_25_20_07.txt
+
+================================================================================
+🚀 Starting Experiment at 2025-11-25 20:07:05
+================================================================================
+
+📋 Configuration:
+  - CSV Path: ../data/queries/combined_queries_1000.csv
+  - Queries to process: 2
+  - Start index: 0
+  - Iterations per query: 5
+  - Contexts to retrieve: 5
+  - Output directory: data
+  - Resume from existing: True
+
+================================================================================
+
+[20:07:05] Loaded 998 queries from ../data/queries/combined_queries_1000.csv
+[20:07:05] 📊 Total queries in CSV: 998
+[20:07:05] 🔍 Checking for processed queries in: data/metrics.csv
+[20:07:05] 📂 Loaded 40 processed queries from: data/metrics.csv
+[20:07:05] ⏭️  Skipping 40 already processed queries
+[20:07:05] 📋 958 queries remaining to process
+[20:07:05] 📊 Processing queries: 2 remaining
+
+--------------------------------------------------------------------------------
+
+
+======== Query 4/998 (Processing 1/2) ========
+📝 Query: I would buy something light and wind proof that is long enough to cover my bum! Please provide some ...
+
+======== Processing Query: I would buy something light and wind proof that is long enough to cover my bum! Please provide some product recommendations for me ========
+[20:07:21] Warning: Only 1 contexts retrieved for query: I would buy something light and wind proof that is...
+[20:07:21] ❌ Failed: Retrieval failed | Total failures: 1/1
+[20:07:21] 💾 Saving intermediate results...
+[20:07:21] Appended to articles file: data/articles.csv
+[20:07:21] ❌ Exception: max() arg is an empty sequence
+
+======== Query 24/998 (Processing 2/2) ========
+📝 Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs,...
+
+======== Processing Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs, but it should have one of the highest tier of graphics cards. I would like it to be wide screened. Black, or  maybe a fun colour depending what is available.I prefer a wider screen. The keyboard should have the keys that are a little bit more flat as opposed to the raised, boxier keys. A webcam would be nice but optional. It should definitely have the proper plugin for my headset. Please provide some product recommendations for me ========
+[20:07:22] Warning: Only 0 contexts retrieved for query: I would like to get a new gaming laptop. I'm not k...
+[20:07:22] ❌ Failed: Retrieval failed | Total failures: 3/2
+[20:07:22] 💾 Saving intermediate results...
+[20:07:22] Appended to articles file: data/articles.csv
+[20:07:22] ❌ Exception: max() arg is an empty sequence
+
+================================================================================
+🎉 EXPERIMENT COMPLETE!
+================================================================================
+
+📊 Summary:
+  - Total processed this run: 4
+  - Successful: 0 (0.0%)
+  - Failed: 4 (100.0%)
+  - Skipped (already done): 40
+  - Total time: 0.3 minutes (0.00 hours)
+  - Average per query: 4.3 seconds
+
+📁 Output Files:
+  - Articles: data/articles.csv
+  - Metrics:  data/metrics.csv
+================================================================================
+🚀 Starting Experiment at 2025-11-25 20:08:33
+================================================================================
+
+📋 Configuration:
+  - CSV Path: ../data/queries/combined_queries_1000.csv
+  - Queries to process: 5
+  - Start index: 0
+  - Iterations per query: 5
+  - Contexts to retrieve: 5
+  - Output directory: data
+  - Resume from existing: True
+
+================================================================================
+
+[20:08:33] Loaded 998 queries from ../data/queries/combined_queries_1000.csv
+[20:08:33] 📊 Total queries in CSV: 998
+[20:08:33] 🔍 Checking for processed queries in: data/metrics.csv
+[20:08:33] 📂 Loaded 40 processed queries from: data/metrics.csv
+[20:08:33] ⏭️  Skipping 40 already processed queries
+[20:08:33] 📋 958 queries remaining to process
+[20:08:33] 📊 Processing queries: 5 remaining
+
+--------------------------------------------------------------------------------
+
+
+======== Query 4/998 (Processing 1/5) ========
+📝 Query: I would buy something light and wind proof that is long enough to cover my bum! Please provide some ...
+
+======== Processing Query: I would buy something light and wind proof that is long enough to cover my bum! Please provide some product recommendations for me ========
+[20:08:52] Warning: Only 0 contexts retrieved for query: I would buy something light and wind proof that is...
+[20:08:52] ❌ Failed: Retrieval failed | Total failures: 1/1
+[20:08:52] 💾 Saving intermediate results...
+[20:08:52] Appended to articles file: data/articles.csv
+[20:08:52] ❌ Exception: max() arg is an empty sequence
+
+======== Query 24/998 (Processing 2/5) ========
+📝 Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs,...
+
+======== Processing Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs, but it should have one of the highest tier of graphics cards. I would like it to be wide screened. Black, or  maybe a fun colour depending what is available.I prefer a wider screen. The keyboard should have the keys that are a little bit more flat as opposed to the raised, boxier keys. A webcam would be nice but optional. It should definitely have the proper plugin for my headset. Please provide some product recommendations for me ========
+[20:08:53] Warning: Only 0 contexts retrieved for query: I would like to get a new gaming laptop. I'm not k...
+[20:08:53] ❌ Failed: Retrieval failed | Total failures: 3/2
+[20:08:53] 💾 Saving intermediate results...
+[20:08:53] Appended to articles file: data/articles.csv
+[20:08:53] ❌ Exception: max() arg is an empty sequence
+
+======== Query 32/998 (Processing 3/5) ========
+📝 Query: The laptop I would want as a replacement is one that doesn't just do basic tasks, but is also suitab...
+
+======== Processing Query: The laptop I would want as a replacement is one that doesn't just do basic tasks, but is also suitable for artistic tasks like photo editing and video editing. These are two of my hobbies and a basic laptop won't do. I think that would require at least a 4 core processor. I also want one that is light and portable because i like to travel and I like a computer that has a nice aesthetic appearance because I like to think of my laptop as an accessory, but a useful one. Please provide some product recommendations for me ========
+[20:08:54] Warning: Only 0 contexts retrieved for query: The laptop I would want as a replacement is one th...
+[20:08:54] ❌ Failed: Retrieval failed | Total failures: 5/3
+[20:08:54] 💾 Saving intermediate results...
+[20:08:54] Appended to articles file: data/articles.csv
+[20:08:54] ❌ Exception: max() arg is an empty sequence
+
+======== Query 44/998 (Processing 4/5) ========
+📝 Query: I'm looking at new laptops that are made by brands with a good reputation. What's really important i...
+
+======== Processing Query: I'm looking at new laptops that are made by brands with a good reputation. What's really important is that they have a large hard drive and SSD because I store a lot of photos and SSD is more stable. It would need a good amount of RAM and processing power to ensure that laptop can run smoothly using some intense programs such as Lightroom and can easily cope with a lot of browser tabs open at the same time without sounding like a plane getting ready to take off. Something in a cool colour would be a bonus, but I don't have to have that if the laptop has all the other more important features I want. I'd prefer something that isn't loaded with a lot of pre installed junk that is never really used and often just causes the laptop to slow down. It would need to have a WiFi card and I'd want to get Microsoft Office for it. Please provide some product recommendations for me ========
+[20:08:55] Warning: Only 0 contexts retrieved for query: I'm looking at new laptops that are made by brands...
+[20:08:55] ❌ Failed: Retrieval failed | Total failures: 7/4
+[20:08:55] 💾 Saving intermediate results...
+[20:08:55] Appended to articles file: data/articles.csv
+[20:08:55] ❌ Exception: max() arg is an empty sequence
+
+======== Query 45/998 (Processing 5/5) ========
+📝 Query: Apple laptop because I believe them to be the most secure. Also I think they are the most reliable l...
+
+======== Processing Query: Apple laptop because I believe them to be the most secure. Also I think they are the most reliable laptop to own and the easiest to use. They also have dedicated shops with one to one help in store if you have any questions on how to use them. Please provide some product recommendations for me ========
+[20:09:06] Selected context #1 as target article (total: 5 contexts)
+
+======== Original Target Article (Selected for Optimization) ========
+Article length: 2530 chars
+Article preview (first 500 chars):
+The user is looking for recommendations for an Apple laptop, citing security, reliability, ease of use, and the availability of in-store support as key factors.
+
+The provided document discusses the security and privacy aspects of macOS compared to Windows. While it doesn't directly recommend specific Apple laptop models, it does offer insights into why macOS is considered more secure and private than Windows by experts.
+
+Key points from the document relevant to the user's query:
+*   **Security a...
+
+[20:09:06] Target article length: 2530 chars
+[20:09:06] Number of contexts: 4
+
+======== Iteration 1/5 ========
+
+======== Evaluating Article - Iteration 0 ========
+Article length: 2530 chars
+Article preview (first 300 chars):
+The user is looking for recommendations for an Apple laptop, citing security, reliability, ease of use, and the availability of in-store support as key factors.
+
+The provided document discusses the security and privacy aspects of macOS compared to Windows. While it doesn't directly recommend specifi...
+
+
+======== Evaluator: Query & Contexts ========
+Query: Apple laptop because I believe them to be the most secure. Also I think they are the most reliable laptop to own and the easiest to use. They also have dedicated shops with one to one help in store if you have any questions on how to use them. Please provide some product recommendations for me
+
+Number of contexts: 4
+
+[Context 1]
+The user is looking for recommendations for Apple laptops, specifically mentioning their belief in their security, reliability, ease of use, and the availability of dedicated in-store support.
+
+Based on the document, here are some product recommendations and relevant information:
+
+**Product Recommendations:**
+
+*   **MacBook Air:**
+    *   **Description:** Described as a "masterclass in minimalist design," it's ideal for those who value portability without sacrificing performance. It weighs 2.75 ...
+
+[Context 2]
+The user is looking for recommendations for Apple laptops, specifically mentioning their perceived security, reliability, ease of use, and the availability of dedicated support shops.
+
+Based on the document, here are the Apple laptop recommendations:
+
+*   **Apple MacBook Air 2020 – Premium Pick**:
+    *   **Security Features**: Touch ID access, encrypted storage with hardware keys, Startup Security Utility, and Secure Boot to check for security issues and OS authenticity. The document states it ...
+
+[Context 3]
+The user is looking for recommendations for Apple laptops, citing security, reliability, ease of use, and the availability of dedicated support as key factors.
+
+The document discusses the security of Apple computers (Macs) in comparison to Windows. It highlights several macOS security features such as Rapid Security Response, Gatekeeper, FileVault, and Keychains. The article also provides tips on how to protect a computer, including enabling automatic system software updates, turning on FileVaul...
+
+[Context 4]
+The user is looking for recommendations for Apple laptops based on their belief that Apple products are secure, reliable, and easy to use. They also appreciate the availability of dedicated Apple stores for in-person support.
+
+The document "Are Apple Computers Worth It? A Comprehensive Guide" discusses the advantages of Apple computers, which align with the user's preferences.
+
+**Key points from the document that support the user's criteria:**
+
+*   **Security and Ease of Use:** The document stat...
+
+======== Evaluator Output ========
+
+[payload]
+{
+  "answer": "The provided article discusses the security and privacy aspects of macOS, which is relevant to your preference for Apple laptops due to their perceived security. Experts generally consider macOS to be more secure and private than Windows, attributing this to Apple's tight control over hardware and software, its closed system, and features like on-device processing and differential privacy. Apple's marketing also emphasizes user privacy, and experts acknowledge the company's commitment to implementing privacy-focused features.\n\nHowever, the article does not provide specific product recommendations for Apple laptops. It also does not directly address the reliability or ease of use of Apple laptops, nor does it mention Apple's dedicated shops or one-to-one in-store support.",
+  "scores": {
+    "CP": 0.83,
+    "AA": 1.0,
+    "FA": 1.0,
+    "KC": 0.33,
+    "SC": 0.33,
+    "AD": 0.33
+  },
+  "why": {
+    "CP": "The answer clearly attributes the information about macOS security and privacy to the provided article.",
+    "AA": "All statements attributed to the article accurately reflect its content, including its explicit limitations regarding product recommendations, reliability, ease of use, and support.",
+    "FA": "The answer faithfully represents the article's content without distortion. It accurately conveys what the article covers (security/privacy) and what it explicitly states it does not cover.",
+    "KC": "The article covers the 'security' aspect of the user's query reasonably well by discussing macOS security and privacy. However, it completely misses product recommendations, reliability, ease of use, and dedicated support, which are all key concepts in the user's query. Therefore, its coverage of essential concepts is low.",
+    "SC": "The article contributes unique information regarding the expert consensus on macOS security and privacy compared to Windows, and Apple's approach to privacy. While this is a relevant aspect of the query, the article fails to provide product recommendations or address other key user preferences (reliability, ease of use, support), which are extensively covered by external contexts. Its contribution is not central to fulfilling the *entire* query, especially the core request for recommendations.",
+    "AD": "The article's content forms a portion of the answer, specifically addressing the security aspect. However, it explicitly states its inability to provide product recommendations or address other user preferences. Given that the query is primarily for recommendations and other factors, the article's overall share of the answer content is limited compared to what would be needed to fully address the query (which external contexts would provide)."
+  }
+}
+[20:09:13] Iter 0 metrics | CP:0.83 AA:1.00 FA:1.00 KC:0.33 SC:0.33 AD:0.33
+
+======== Analyst: proposed edits ========
+
+[edits]
+{
+  "edits": [
+    {
+      "target_metric": "KC",
+      "reason": "The article explicitly states it does not provide product recommendations, which is a key concept in the user's query. Adding general recommendations for current models addresses this gap.",
+      "location_hint": "Product Recommendations:",
+      "operation": "replace_span",
+      "patch": "Product Recommendations:\nWhile the document does not provide specific product recommendations, based on the user's stated preference for Apple and the document's findings on security and privacy, any current MacBook Air or MacBook Pro model would align well with their priorities. These models offer the latest macOS features and Apple's integrated security. The document briefly mentions a 'New M5 MacBook Pro' in its trending section, suggesting a potential upcoming or recent release that would also be a strong contender once available."
+    },
+    {
+      "target_metric": "KC",
+      "reason": "The article explicitly states it does not address reliability or ease of use, which are key concepts in the user's query. Adding a general statement about these aspects directly addresses this gap.",
+      "location_hint": "The document does not directly address the reliability or ease of use of Apple laptops.",
+      "operation": "replace_span",
+      "patch": "**Reliability and Ease of Use:** While the document does not *directly* analyze these aspects, Apple laptops are generally perceived in the market as highly reliable due to their integrated hardware-software ecosystem and premium build quality. macOS is also widely praised for its intuitive user interface and ease of use, especially for users within the Apple ecosystem."
+    },
+    {
+      "target_metric": "KC",
+      "reason": "The article explicitly states it does not mention Apple's dedicated shops or in-store support, a key concept in the user's query. Adding information about this aspect directly addresses this gap.",
+      "location_hint": "The document does not mention Apple's dedicated shops or one-to-one in-store support.",
+      "operation": "replace_span",
+      "patch": "**Dedicated Shops and Support:** The user's preference for in-store support is well-met by Apple's extensive network of Apple Stores. These dedicated shops offer personalized one-to-one assistance, known as Genius Bar appointments, for troubleshooting, repairs, and guidance on using Apple products, which is a significant advantage for many users."
+    }
+  ]
+}
+[20:09:26] Applying edit targeting: KC
+
+======== Edited Article - After Iteration 0 ========
+New length: 3046 chars
+Preview (first 300 chars):
+The user is looking for recommendations for an Apple laptop, citing security, reliability, ease of use, and the availability of in-store support as key factors.
+
+The provided document discusses the security and privacy aspects of macOS compared to Windows. While it doesn't directly recommend specifi...
+
+
+======== Iteration 2/5 ========
+
+======== Evaluating Article - Iteration 1 ========
+Article length: 3046 chars
+Article preview (first 300 chars):
+The user is looking for recommendations for an Apple laptop, citing security, reliability, ease of use, and the availability of in-store support as key factors.
+
+The provided document discusses the security and privacy aspects of macOS compared to Windows. While it doesn't directly recommend specifi...
+
+
+======== Evaluator: Query & Contexts ========
+Query: Apple laptop because I believe them to be the most secure. Also I think they are the most reliable laptop to own and the easiest to use. They also have dedicated shops with one to one help in store if you have any questions on how to use them. Please provide some product recommendations for me
+
+Number of contexts: 4
+
+[Context 1]
+The user is looking for recommendations for Apple laptops, specifically mentioning their belief in their security, reliability, ease of use, and the availability of dedicated in-store support.
+
+Based on the document, here are some product recommendations and relevant information:
+
+**Product Recommendations:**
+
+*   **MacBook Air:**
+    *   **Description:** Described as a "masterclass in minimalist design," it's ideal for those who value portability without sacrificing performance. It weighs 2.75 ...
+
+[Context 2]
+The user is looking for recommendations for Apple laptops, specifically mentioning their perceived security, reliability, ease of use, and the availability of dedicated support shops.
+
+Based on the document, here are the Apple laptop recommendations:
+
+*   **Apple MacBook Air 2020 – Premium Pick**:
+    *   **Security Features**: Touch ID access, encrypted storage with hardware keys, Startup Security Utility, and Secure Boot to check for security issues and OS authenticity. The document states it ...
+
+[Context 3]
+The user is looking for recommendations for Apple laptops, citing security, reliability, ease of use, and the availability of dedicated support as key factors.
+
+The document discusses the security of Apple computers (Macs) in comparison to Windows. It highlights several macOS security features such as Rapid Security Response, Gatekeeper, FileVault, and Keychains. The article also provides tips on how to protect a computer, including enabling automatic system software updates, turning on FileVaul...
+
+[Context 4]
+The user is looking for recommendations for Apple laptops based on their belief that Apple products are secure, reliable, and easy to use. They also appreciate the availability of dedicated Apple stores for in-person support.
+
+The document "Are Apple Computers Worth It? A Comprehensive Guide" discusses the advantages of Apple computers, which align with the user's preferences.
+
+**Key points from the document that support the user's criteria:**
+
+*   **Security and Ease of Use:** The document stat...

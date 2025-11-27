@@ -1,0 +1,68 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-25 17:34:39
+Log file: logs/2025_11_25_17_34.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_25_17_34.txt
+
+================================================================================
+🚀 Starting Experiment at 2025-11-25 17:34:40
+================================================================================
+
+📋 Configuration:
+  - CSV Path: ../data/queries/combined_queries_1000.csv
+  - Queries to process: 2
+  - Start index: 0
+  - Iterations per query: 5
+  - Contexts to retrieve: 5
+  - Output directory: data
+  - Resume from existing: True
+
+================================================================================
+
+[17:34:40] Loaded 998 queries from ../data/queries/combined_queries_1000.csv
+[17:34:40] 📊 Total queries in CSV: 998
+[17:34:40] 🔍 Checking for processed queries in: data/metrics.csv
+[17:34:40] 📂 Loaded 40 processed queries from: data/metrics.csv
+[17:34:40] ⏭️  Skipping 40 already processed queries
+[17:34:40] 📋 958 queries remaining to process
+[17:34:40] 📊 Processing queries: 2 remaining
+
+--------------------------------------------------------------------------------
+
+
+======== Query 4/998 (Processing 1/2) ========
+📝 Query: I would buy something light and wind proof that is long enough to cover my bum! Please provide some ...
+
+======== Processing Query: I would buy something light and wind proof that is long enough to cover my bum! Please provide some product recommendations for me ========
+[17:35:06] Warning: Only 1 contexts retrieved for query: I would buy something light and wind proof that is...
+[17:35:06] ❌ Failed: Retrieval failed | Total failures: 1/1
+[17:35:06] 💾 Saving intermediate results...
+[17:35:06] Appended to articles file: data/articles.csv
+[17:35:06] ❌ Exception: max() arg is an empty sequence
+
+======== Query 24/998 (Processing 2/2) ========
+📝 Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs,...
+
+======== Processing Query: I would like to get a new gaming laptop. I'm not knowledgeable enough to go into the specific specs, but it should have one of the highest tier of graphics cards. I would like it to be wide screened. Black, or  maybe a fun colour depending what is available.I prefer a wider screen. The keyboard should have the keys that are a little bit more flat as opposed to the raised, boxier keys. A webcam would be nice but optional. It should definitely have the proper plugin for my headset. Please provide some product recommendations for me ========
+[17:35:06] Warning: Only 0 contexts retrieved for query: I would like to get a new gaming laptop. I'm not k...
+[17:35:06] ❌ Failed: Retrieval failed | Total failures: 3/2
+[17:35:06] 💾 Saving intermediate results...
+[17:35:06] Appended to articles file: data/articles.csv
+[17:35:06] ❌ Exception: max() arg is an empty sequence
+
+================================================================================
+🎉 EXPERIMENT COMPLETE!
+================================================================================
+
+📊 Summary:
+  - Total processed this run: 4
+  - Successful: 0 (0.0%)
+  - Failed: 4 (100.0%)
+  - Skipped (already done): 40
+  - Total time: 0.4 minutes (0.01 hours)
+  - Average per query: 6.5 seconds
+
+📁 Output Files:
+  - Articles: data/articles.csv
+  - Metrics:  data/metrics.csv
