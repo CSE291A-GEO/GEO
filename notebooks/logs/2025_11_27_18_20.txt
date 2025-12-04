@@ -1,0 +1,201 @@
+================================================================================
+MACO Pipeline Log - Started at 2025-11-27 18:20:07
+Log file: logs/2025_11_27_18_20.txt
+================================================================================
+
+[LOG] All output will be saved to: logs/2025_11_27_18_20.txt
+
+================================================================================
+🚀 Starting Experiment at 2025-11-27 18:20:09
+================================================================================
+
+📋 Configuration:
+  - CSV Path: ../data/queries/combined_queries_1000.csv
+  - Queries to process: 5
+  - Start index: 0
+  - Iterations per query: 5
+  - Generated queries per article: 5
+  - Contexts to retrieve: 5
+  - Output directory: data
+  - Resume from existing: True
+
+================================================================================
+
+[18:20:09] Loaded 998 queries from ../data/queries/combined_queries_1000.csv
+[18:20:09] 📊 Total queries in CSV: 998
+[18:20:09] 🔍 Checking for processed queries in: data/metrics.csv
+[18:20:09] 📂 Loaded 4 processed queries from: data/metrics.csv
+[18:20:09] ⏭️  Skipping 4 already processed queries
+[18:20:09] 📋 994 queries remaining to process
+[18:20:09] 📊 Processing queries: 5 remaining
+
+--------------------------------------------------------------------------------
+
+
+======== Query 1/998 (Processing 1/5) ========
+📝 Query: Autumn coloured, light, ladies' leather jacket; sharp cut with a slight waist; falls just below the ...
+
+======== Processing Query: Autumn coloured, light, ladies' leather jacket; sharp cut with a slight waist; falls just below the hip; discreet pockets, buttons, zippers (cannot be seen). Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:20:20] Warning: Only 0 contexts retrieved for query: Autumn coloured, light, ladies' leather jacket; sh...
+[18:20:20] ❌ Failed: Retrieval failed | Total failures: 1/1
+[18:20:20] 💾 Saving intermediate results...
+[18:20:20] Appended to articles file: data/articles.csv
+[18:20:20] No successful results, skipping CSV write
+
+======== Query 6/998 (Processing 2/5) ========
+📝 Query: Apple MacBook Pro with as high a spec as I could afford Please provide some product recommendations ...
+
+======== Processing Query: Apple MacBook Pro with as high a spec as I could afford Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:20:22] Warning: Only 0 contexts retrieved for query: Apple MacBook Pro with as high a spec as I could a...
+[18:20:22] ❌ Failed: Retrieval failed | Total failures: 2/2
+[18:20:22] 💾 Saving intermediate results...
+[18:20:22] Appended to articles file: data/articles.csv
+[18:20:22] No successful results, skipping CSV write
+
+======== Query 7/998 (Processing 3/5) ========
+📝 Query: Decent screen size with an excellent battery life. I need a full number pad because I need that when...
+
+======== Processing Query: Decent screen size with an excellent battery life. I need a full number pad because I need that when I work from home. It will need a discreet graphics card instead of an integrated GPU with a decent size SSD. The resolution will also need to be 1080p. Some other things I would look for would be blu-tooth and built in wifi adapter. Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:20:27] Warning: Only 0 contexts retrieved for query: Decent screen size with an excellent battery life....
+[18:20:27] ❌ Failed: Retrieval failed | Total failures: 3/3
+[18:20:27] 💾 Saving intermediate results...
+[18:20:27] Appended to articles file: data/articles.csv
+[18:20:27] No successful results, skipping CSV write
+
+======== Query 8/998 (Processing 4/5) ========
+📝 Query: It would be a windows laptop not an Apple Mac. It'll be the laptop that is issued by work, probably ...
+
+======== Processing Query: It would be a windows laptop not an Apple Mac. It'll be the laptop that is issued by work, probably black Dell laptop. Might be second hand might be brand new, depends what the IT department has available. Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:20:29] Warning: Only 0 contexts retrieved for query: It would be a windows laptop not an Apple Mac. It'...
+[18:20:29] ❌ Failed: Retrieval failed | Total failures: 4/4
+[18:20:29] 💾 Saving intermediate results...
+[18:20:29] Appended to articles file: data/articles.csv
+[18:20:29] No successful results, skipping CSV write
+
+======== Query 9/998 (Processing 5/5) ========
+📝 Query: patagonia sweater jacket, it would be biodegradable, fairly made, and good quality. Please provide s...
+
+======== Processing Query: patagonia sweater jacket, it would be biodegradable, fairly made, and good quality. Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:20:31] Warning: Only 0 contexts retrieved for query: patagonia sweater jacket, it would be biodegradabl...
+[18:20:31] ❌ Failed: Retrieval failed | Total failures: 5/5
+[18:20:31] 💾 Saving intermediate results...
+[18:20:31] Appended to articles file: data/articles.csv
+[18:20:31] No successful results, skipping CSV write
+
+================================================================================
+🎉 EXPERIMENT COMPLETE!
+================================================================================
+
+📊 Summary:
+  - Total processed this run: 5
+  - Successful: 0 (0.0%)
+  - Failed: 5 (100.0%)
+  - Skipped (already done): 4
+  - Total time: 0.4 minutes (0.01 hours)
+  - Average per query: 4.4 seconds
+
+📁 Output Files:
+  - Articles: data/articles.csv
+  - Metrics:  data/metrics.csv
+================================================================================
+🚀 Starting Experiment at 2025-11-27 18:21:52
+================================================================================
+
+📋 Configuration:
+  - CSV Path: ../data/queries/combined_queries_1000.csv
+  - Queries to process: 5
+  - Start index: 0
+  - Iterations per query: 5
+  - Generated queries per article: 5
+  - Contexts to retrieve: 5
+  - Output directory: data
+  - Resume from existing: True
+
+================================================================================
+
+[18:21:52] Loaded 998 queries from ../data/queries/combined_queries_1000.csv
+[18:21:52] 📊 Total queries in CSV: 998
+[18:21:52] 🔍 Checking for processed queries in: data/metrics.csv
+[18:21:52] 📂 Loaded 4 processed queries from: data/metrics.csv
+[18:21:52] ⏭️  Skipping 4 already processed queries
+[18:21:52] 📋 994 queries remaining to process
+[18:21:52] 📊 Processing queries: 5 remaining
+
+--------------------------------------------------------------------------------
+
+
+======== Query 1/998 (Processing 1/5) ========
+📝 Query: Autumn coloured, light, ladies' leather jacket; sharp cut with a slight waist; falls just below the ...
+
+======== Processing Query: Autumn coloured, light, ladies' leather jacket; sharp cut with a slight waist; falls just below the hip; discreet pockets, buttons, zippers (cannot be seen). Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:21:55] Warning: Only 0 contexts retrieved for query: Autumn coloured, light, ladies' leather jacket; sh...
+[18:21:55] ❌ Failed: Retrieval failed | Total failures: 1/1
+[18:21:55] 💾 Saving intermediate results...
+[18:21:55] Appended to articles file: data/articles.csv
+[18:21:55] No successful results, skipping CSV write
+
+======== Query 6/998 (Processing 2/5) ========
+📝 Query: Apple MacBook Pro with as high a spec as I could afford Please provide some product recommendations ...
+
+======== Processing Query: Apple MacBook Pro with as high a spec as I could afford Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:21:57] Warning: Only 0 contexts retrieved for query: Apple MacBook Pro with as high a spec as I could a...
+[18:21:57] ❌ Failed: Retrieval failed | Total failures: 2/2
+[18:21:57] 💾 Saving intermediate results...
+[18:21:57] Appended to articles file: data/articles.csv
+[18:21:57] No successful results, skipping CSV write
+
+======== Query 7/998 (Processing 3/5) ========
+📝 Query: Decent screen size with an excellent battery life. I need a full number pad because I need that when...
+
+======== Processing Query: Decent screen size with an excellent battery life. I need a full number pad because I need that when I work from home. It will need a discreet graphics card instead of an integrated GPU with a decent size SSD. The resolution will also need to be 1080p. Some other things I would look for would be blu-tooth and built in wifi adapter. Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:22:00] Warning: Only 0 contexts retrieved for query: Decent screen size with an excellent battery life....
+[18:22:00] ❌ Failed: Retrieval failed | Total failures: 3/3
+[18:22:00] 💾 Saving intermediate results...
+[18:22:00] Appended to articles file: data/articles.csv
+[18:22:00] No successful results, skipping CSV write
+
+======== Query 8/998 (Processing 4/5) ========
+📝 Query: It would be a windows laptop not an Apple Mac. It'll be the laptop that is issued by work, probably ...
+
+======== Processing Query: It would be a windows laptop not an Apple Mac. It'll be the laptop that is issued by work, probably black Dell laptop. Might be second hand might be brand new, depends what the IT department has available. Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:22:02] Warning: Only 0 contexts retrieved for query: It would be a windows laptop not an Apple Mac. It'...
+[18:22:02] ❌ Failed: Retrieval failed | Total failures: 4/4
+[18:22:02] 💾 Saving intermediate results...
+[18:22:02] Appended to articles file: data/articles.csv
+[18:22:02] No successful results, skipping CSV write
+
+======== Query 9/998 (Processing 5/5) ========
+📝 Query: patagonia sweater jacket, it would be biodegradable, fairly made, and good quality. Please provide s...
+
+======== Processing Query: patagonia sweater jacket, it would be biodegradable, fairly made, and good quality. Please provide some product recommendations for me ========
+[WARN] Gensee AI request failed: 500 Server Error: Internal Server Error for url: https://platform.gensee.ai/tool/search
+[18:22:04] Warning: Only 0 contexts retrieved for query: patagonia sweater jacket, it would be biodegradabl...
+[18:22:04] ❌ Failed: Retrieval failed | Total failures: 5/5
+[18:22:04] 💾 Saving intermediate results...
+[18:22:04] Appended to articles file: data/articles.csv
+[18:22:04] No successful results, skipping CSV write
+
+================================================================================
+🎉 EXPERIMENT COMPLETE!
+================================================================================
+
+📊 Summary:
+  - Total processed this run: 5
+  - Successful: 0 (0.0%)
+  - Failed: 5 (100.0%)
+  - Skipped (already done): 4
+  - Total time: 0.2 minutes (0.00 hours)
+  - Average per query: 2.4 seconds
+
+📁 Output Files:
+  - Articles: data/articles.csv
+  - Metrics:  data/metrics.csv
