@@ -46,18 +46,17 @@ The system uses four specialized agents:
 
 ## Usage
 
-See `demo.ipynb` for a quick start or `notebooks/MACO_pipeline_v2.ipynb` for the full implementation.
+See `notebooks/MACO_pipeline_v2.ipynb` for the full implementation.
 
 ## Project Structure
 
 ```
-├── demo.ipynb                  # Quick start demo
 ├── data_analysis.ipynb         # Results analysis
 ├── notebooks/
 │   ├── MACO_pipeline.ipynb     # Base pipeline
 │   ├── MACO_pipeline_v2.ipynb  # Paper-aligned implementation
 │   └── data/                   # Output articles & metrics
 └── data/
-    ├── queries/                # Benchmark queries
-    └── corpus/                 # Document corpus
+    ├── articles/                # Benchmark articles
+    └── optimized_articles&metrics/                 # optimized articles and metrics for each itertaion
 ```
